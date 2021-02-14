@@ -2,7 +2,8 @@
 
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
-### Workshop Steps:<div style="text-align: right">(Total Time: 1-1.5 hours)</div>
+### Workshop Steps:
+<div style="text-align: right">(Total Time: 1-1.5 hours)</div>
 1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
