@@ -48,7 +48,7 @@
 	<pre>
 	/mnt/volb/ParaView/bin/paraview
 	</pre>
-	3.3. Open the motorbike.foam file in ParaView:
+	3.3. In ParaView, open the motorbike.foam file:
 	<pre>
 	click File > Open > choose /mnt/volb/work/motorbike.foam
 	</pre>
