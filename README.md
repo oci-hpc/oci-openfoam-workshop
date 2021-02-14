@@ -5,7 +5,7 @@
 1. Deploy the **openfoam-workshop** project on OCI via Resource Manager (~45 minutes):\
 	1.1. Navigate to the Create Stack wizard in Resource Manager:
 	<pre>
-	cloud.oracle.com &gt sign into your OCI account &gt click Hamburger Menu &gt hover over **Resource Manager** &gt click **Stacks** &gt click **Create Stack**
+	cloud.oracle.com &gt sign into your OCI account &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt click <b>Create Stack</b>
 	</pre>
 	1.2. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder, then click **Next**.\
 	1.3. In the **Configure Variables** section, choose:
