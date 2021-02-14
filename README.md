@@ -43,7 +43,7 @@
 		ssh-keygen
 		</pre>
 	on your Mac OS or Linux machine and choosing the default options.
-	- The shape of your Compute Instance
+	- The shape of your Compute Instance. The name of the shape indicates the number of cores available to that shape, e.g. VM.Standard2.**8** has **8** cores available.
 	- The Availability Domain (AD) number. Note that the availability of the shape that you use will vary between Availability Domains. You can check the shape limits by navigating from:
 		<pre>
 		Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
