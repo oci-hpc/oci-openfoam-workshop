@@ -5,8 +5,8 @@
 ### Workshop Steps:
 
 1. Provision the infrastructure by deploying the **openfoam-workshop** project on OCI via Resource Manager.\
-	<sup><sub><sup>:clock3:</sup></sub>&nbsp;&nbsp;~45 minutes with BM.Standard2.52 shape</sup>\
-	<sup><sub><sup>:clock3:</sup></sub>~75 minutes with VM.Standard2.8 shape</sup>\
+	<sup><sub><sup>:clock3:</sup></sub>&nbsp;~45 minutes with BM.Standard2.52 shape</sup>\
+	<sup><sub><sup>:clock3:</sup></sub></sup>&nbsp;<sup>~75 minutes with VM.Standard2.8 shape</sup>\
 	1.1. Clone this project:
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
