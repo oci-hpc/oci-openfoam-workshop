@@ -2,8 +2,8 @@
 
 ## Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
-1. Deploy the "openfoam-workshop" project on OCI via Resource Manager (~45 minutes):
-	1.1. Navigate to the Create Stack wizard in Resource Manager:
+1. Deploy the "openfoam-workshop" project on OCI via Resource Manager (~45 minutes):\
+	1.1. Navigate to the Create Stack wizard in Resource Manager:\
 ```
 cloud.oracle.com > sign into your OCI account > click Hamburger Menu > hover over "Resource Manager" > click "Stacks" > click "Create Stack"
 ```
