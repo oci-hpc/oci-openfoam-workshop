@@ -14,7 +14,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 </pre>
 
 ### Workshop Steps
-###### <p align="right">Total Time: 1-1.5 hours</p>
+###### <p align="right">Total Time: 1-2 hours</p>
 1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
