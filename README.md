@@ -63,6 +63,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>  
+	\
 3.	Connect to your remote host via VNC.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
