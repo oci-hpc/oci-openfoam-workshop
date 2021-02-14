@@ -49,7 +49,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
 	on your Mac OS or Linux machine and choosing the default options.
 	- Select a shape for your Compute Instance.\
 	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8** has **8** cores available.
-	- Select the number of the Availability Domain (AD) in which the infrastructure will be deployed.\
+	- Select the number representing the Availability Domain (AD) in which the infrastructure will be deployed.\
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.
 	1.5. In the **Review** section, click **Create**.\
 	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.
