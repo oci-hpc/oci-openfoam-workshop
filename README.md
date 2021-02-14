@@ -91,4 +91,5 @@
 	4.5. Click the green **Apply** button to render the motorbike image. If a window with a list of errors appears, titled **Output Messages**, you may close it.\
 	4.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.\
 	\
+	\
 	![](./pictures/motorbike.png)
