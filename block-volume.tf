@@ -84,6 +84,7 @@ resource "null_resource" "make_paraview_file" {
   provisioner "file" {
     content = templatefile("./setup-paraview.tpl", {
       suffix = local.bv_device_path_suffix,
+      suffix_or_empty = length(local.bv_device_path_suffix) > 1 ? local.bv_device_path_suffix : [""] # no suffix if only one device path in the deployment
       })
     destination = "/home/opc/setup-paraview.sh"
     connection {

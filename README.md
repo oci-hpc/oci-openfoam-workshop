@@ -59,8 +59,11 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	<sub>~45 minutes with BM.Standard2.52 shape</sub>\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
+	<sub>~60 minutes with VM.Standard2.16 shape</sub>\
+	<sub><sup><sub>:clock3:</sub></sup></sub>
+	&nbsp;
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>
-
+	\
 3.	Connect to your remote host via VNC.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
@@ -92,7 +95,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	</pre>
 	4.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
 	<pre>
-	/mnt/volb/ParaView/bin/paraview
+	paraview
 	</pre>
 	4.3. In ParaView, open the motorbike.foam file:
 	<pre>
