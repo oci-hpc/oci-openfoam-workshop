@@ -18,7 +18,10 @@ OpenFOAM Workshop - Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 	f.	Click through the default options to get to the end with the VNC setup wizard (choose "Next" for language, keyboard layout, location services, and "Skip" for connect online accounts)
 3.	Run the Motorbike simulation in ParaView:\
 	a.	Open Terminal from your VNC window by clicking Applications > hover over System Utilities > click Terminal\
-	b.	Open Paraview by executing the following command: /mnt/volb/ParaView/bin/paraview\
+	b.	Open Paraview by executing the following command:
+	<pre>
+	/mnt/volb/ParaView/bin/paraview
+	</pre>
 	c.	Open the motorbike.foam file in ParaView by clicking File > Open > choose motorbike.foam\
 	d.	Under the "Properties" pane on the left side of Paraview, select "Mesh Regions" to select everything, and then deselect the options that do not start with the string "motorBike_". You can adjust the windows to make this section of the GUI easier to access e.g. by closing "PipeLine Browser" section by clicking "X".\
 	e.	Click the green "Apply" button to render the motorbike image. If a window with a list of errors appears, titled "Output Messages", you may close it.\
