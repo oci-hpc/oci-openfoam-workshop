@@ -40,11 +40,11 @@
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
 3.	Run the Motorbike simulation in ParaView:\
-	3.1. Open Terminal from your VNC window:
+	3.1. Open Terminal from your VNC Viewer window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
 	</pre>
-	3.2. Open Paraview by executing the following command:
+	3.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
 	<pre>
 	/mnt/volb/ParaView/bin/paraview
 	</pre>
