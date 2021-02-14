@@ -5,11 +5,11 @@
 ### Workshop Steps:
 
 1. Provision the infrastructure by deploying the **openfoam-workshop** project on OCI via Resource Manager.\
-	<sup><sup>:clock3:</sup></sup>
-	&nbsp;&nbsp;
+	<sup><sub><sup>:clock3:</sup></sub></sup>
+	&nbsp;
 	<sup>~45 minutes with BM.Standard2.52 shape</sup>\
-	<sup><sup>:clock3:</sup></sup>
-	&nbsp;&nbsp;
+	<sup><sub><sup>:clock3:</sup></sub></sup>
+	&nbsp;
 	<sup>~75 minutes with VM.Standard2.8 shape</sup>\
 	1.1. Clone this project:
 	<pre>
@@ -47,7 +47,7 @@
 	1.7. Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.\
 2.	Connect to your remote host via VNC.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
-	&nbsp;&nbsp;
+	&nbsp;
 	<sup>~5 minutes</sup>\
 	2.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
 	<pre>
@@ -62,7 +62,7 @@
 	</pre>
 3.	Visualize the Motorbike simulation using ParaView.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
-	&nbsp;&nbsp;
+	&nbsp;
 	<sup>~5 minutes</sup>\
 	3.1. Open Terminal from your VNC Viewer window:
 	<pre>
