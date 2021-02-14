@@ -8,7 +8,7 @@
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) on your local machine as a client application for VNCServer.
 - An SSH Key Pair on your local machine.
 - Sufficient availability of Compute Instance cores for 1 x the desired Compute shape.
-- Availability and permission to manage networking resources (Virtual Cloud Network, Subnet, Route Table, Security List), Compute Instance and Block Volume
+- Availability and permissions (see [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html)) to manage networking resources (Virtual Cloud Network, Subnet, Route Table, Security List), Compute Instance and Block Volume
 
 ### Workshop Steps
 ###### <p align="right">Total Time: 1-1.5 hours</p>
