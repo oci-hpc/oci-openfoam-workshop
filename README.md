@@ -2,6 +2,8 @@
 
 ## Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
+### Workshop Steps:
+
 1. Deploy the **openfoam-workshop** project on OCI via Resource Manager (~45 minutes):\
 	1.1. Clone this project:
 	<pre>
