@@ -27,7 +27,7 @@
 	</pre>
 	1.3. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
 	1.4. In the **Configure Variables** section, choose:
-	- Your Compartment ID.
+	- Your Compartment.
 	- Paste the contents of your SSH Public Key file. The default location of your SSH Public key file on your machine is **~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
 		<pre>
 		pbcopy < ~/.ssh/id_rsa.pub
