@@ -3,6 +3,9 @@
 ## Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
 ### Workshop Steps:
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>1-1.5 hours</sub>
 
 1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
@@ -49,7 +52,7 @@
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>
-	
+
 3.	Connect to your remote host via VNC.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
