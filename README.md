@@ -30,7 +30,7 @@
 2.	Connect to your remote host via VNC:\
 	2.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
 	<pre>
-	ssh -L 5901:localhost:5901 opc@REMOTE_HOST_IP_ADDRESS
+	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	</pre>
 	2.2. Open the client application for VNC, VNC Viewer.\
 	2.3. Enter **localhost:5901** into the searchbar and press return.\
