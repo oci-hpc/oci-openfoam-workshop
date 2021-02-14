@@ -4,13 +4,10 @@
 
 ### Workshop Steps:
 
-1. Provision the infrastructure by deploying the **openfoam-workshop** project on OCI via Resource Manager.\
+1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
-	<sup>~45 minutes with BM.Standard2.52 shape</sup>\
-	<sup><sub><sup>:clock3:</sup></sub></sup>
-	&nbsp;
-	<sup>~75 minutes with VM.Standard2.8 shape</sup>\
+	<sup>~10 minutes</sup>\
 	1.1. Clone this project:
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
@@ -43,39 +40,46 @@
 		Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
 		</pre>
 	1.5. In the **Review** section, click **Create**.\
-	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.\
-	1.7. Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.\
-2.	Connect to your remote host via VNC.\
+	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.
+2. Wait for the infrastructure to finish provisioning. You can monitor the logs on the left side of the page, where output information will appear when the Resource Manager job finishes.
+	<sup><sub><sup>:clock3:</sup></sub></sup>
+	&nbsp;
+	<sup>~45 minutes with BM.Standard2.52 shape</sup>\
+	<sup><sub><sup>:clock3:</sup></sub></sup>
+	&nbsp;
+	<sup>~75 minutes with VM.Standard2.8 shape</sup>\
+3.	Connect to your remote host via VNC.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
 	<sup>~5 minutes</sup>\
-	2.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
+	3.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
 	<pre>
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	</pre>
-	2.2. Open the client application for VNC, VNC Viewer.\
-	2.3. Enter **localhost:5901** into the searchbar and press return.\
-	2.4. Enter the password **HPC_oci1** when prompted.\
-	2.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:
+	3.2. Open the client application for VNC, VNC Viewer.\
+	3.3. Enter **localhost:5901** into the searchbar and press return.\
+	3.4. Enter the password **HPC_oci1** when prompted.\
+	3.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:
 	<pre>
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
-3.	Visualize the Motorbike simulation using ParaView.\
+4.	Visualize the Motorbike simulation using ParaView.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
 	<sup>~5 minutes</sup>\
-	3.1. Open Terminal from your VNC Viewer window:
+	4.1. Open Terminal from your VNC Viewer window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
 	</pre>
-	3.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
+	4.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
 	<pre>
 	/mnt/volb/ParaView/bin/paraview
 	</pre>
-	3.3. In ParaView, open the motorbike.foam file:
+	4.3. In ParaView, open the motorbike.foam file:
 	<pre>
 	click File > Open > choose /mnt/volb/work/motorbike.foam
 	</pre>
-	3.4. Under the **Properties** pane on the left side of Paraview, select **Mesh Regions** to select everything, and then deselect the options that do not start with the string **motorBike_**. You can adjust the windows to make this section of the GUI easier to access e.g. by closing **PipeLine Browser** section by clicking **X**.\
-	3.5. Click the green **Apply** button to render the motorbike image. If a window with a list of errors appears, titled **Output Messages**, you may close it.\
-	3.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.
+	4.4. Under the **Properties** pane on the left side of Paraview, select **Mesh Regions** to select everything, and then deselect the options that do not start with the string **motorBike_**. You can adjust the windows to make this section of the GUI easier to access e.g. by closing **PipeLine Browser** section by clicking **X**.\
+	4.5. Click the green **Apply** button to render the motorbike image. If a window with a list of errors appears, titled **Output Messages**, you may close it.\
+	4.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.
+	![](./pictures/motorbike.png)

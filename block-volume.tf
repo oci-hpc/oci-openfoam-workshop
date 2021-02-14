@@ -146,9 +146,7 @@ resource "null_resource" "execute_commands" {
       "/home/opc/setup-paraview.sh",
       "/home/opc/setup-motorbike.sh",
       "/home/opc/setup-vncserver.sh",
-      "vncserver :2",
-      "vncserver -kill :2",
-      "vncserver :2",
+      #"vncserver",
     ]
     connection {
       host        = oci_core_instance.compute.public_ip
