@@ -1,0 +1,61 @@
+title: OpenFOAM Workshop Input Variables
+description: Automated OpenFOAM Compute, Block Volume and Network Deployment
+schemaVersion: 1.0.0
+version: "20200302"
+locale: "en"
+
+groupings:
+- title: "OpenFOAM Workshop Values"
+  variables: 
+  - ${region}
+  - ${compartment_ocid}
+  - ${ssh_public_key}
+  - ${compute_shape}
+  - ${ad_number}
+  - ${image}
+
+variables:
+  region:
+    type: string
+    required: true
+    description: "Region Identifier where deployment takes place (e.g. us-phoenix-1)."
+    title: "Region Identifier"
+    visible: false
+  compartment_ocid:
+    type: oci:identity:compartment:id
+    required: true
+    description: "Compartment where deployment takes place"
+    title: "Compartment ID"
+  ssh_public_key:
+    type: string
+    required: true
+    description: "Contents of your SSH Public Key"
+    title: "SSH Public Key"
+  compute_shape:
+    type: enum
+    enum:
+    - "VM.Standard2.1"
+    - "VM.Standard2.2"
+    - "VM.Standard2.4"
+    - "VM.Standard2.8"
+    - "VM.Standard2.16"
+    - "BM.HPC2.36"
+    - "BM.Standard2.52"
+    required: true
+    description: "Shape of Compute Node"
+    title: "Compute Shape"
+  ad_number:
+    type: enum
+    enum:
+    - 1
+    - 2
+    - 3
+    required: true
+    description: "Availability Domain Number in Region"
+    title: "AD Number"
+  image:
+    type: string
+    required: true
+    description: "Image OCIDs"
+    title: "Image OCIDs"
+    visible: false
