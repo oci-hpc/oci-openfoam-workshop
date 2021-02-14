@@ -7,7 +7,7 @@
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
 	</pre>
-	1.2. Open a web browser and navigate to the Create Stack wizard in Resource Manager:
+	1.2. Open a web browser and navigate to the **Create Stack** wizard in Resource Manager:
 	<pre>
 	cloud.oracle.com &gt sign into your OCI account &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt click <b>Create Stack</b>
 	</pre>
