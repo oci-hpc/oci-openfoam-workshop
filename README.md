@@ -3,10 +3,10 @@
 ## Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
 1. Deploy the "openfoam-workshop" project on OCI via Resource Manager (~45 minutes):\
-1.1. Navigate to the Create Stack wizard in Resource Manager:
+1.1. Navigate to the Create Stack wizard in Resource Manager:\
 <pre>
 cloud.oracle.com > sign into your OCI account > click Hamburger Menu > hover over "Resource Manager" > click "Stacks" > click "Create Stack"
-</pre>\
+</pre>
 1.2. In the "Stack Information" section of the "Create Stack" wizard, click "Browse" under "Stack Configuration" and choose the "openfoam-workshop" folder, then click "Next"\
 	c.	In the "Configure Variables" section, choose your Compartment ID, paste the contents of your SSH Public Key file (its default location on your machine is ~/.ssh/id_rsa.pub. You can generate a new key pair if necessary by executing "ssh-keygen" on your Mac or Linux machine and choosing the default options). Then choose the shape of your Compute instance, and the Availability Domain (AD) number. Note that the availability of the shape that you use will vary between Availability Domains. You can check the shape limits by navigating from Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.\
 	d.	In the "Review" section, click "Create".\
