@@ -7,8 +7,11 @@
 - Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.
 - An SSH Key Pair on your local machine.
-- Sufficient availability of Compute Instance cores for 1 x the desired Compute shape.
-- Availability and permissions (see [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html)) to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance, Block Volume
+- Permissions to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance, Block Volume. (See [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html))
+- Sufficient availability to provision 1 x each of the aformentioned resources. You can check resource availability:
+<pre>
+Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
+</pre>
 
 ### Workshop Steps
 ###### <p align="right">Total Time: 1-1.5 hours</p>
@@ -47,10 +50,7 @@
 	- Select a shape for your Compute Instance.\
 	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8** has **8** cores available.
 	- Select the number of the Availability Domain (AD) in which the infrastructure will be deployed.\
-	Note that the availability of cores the shape that you use will vary between Availability Domains. You can check the core limits:
-		<pre>
-		Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
-		</pre>
+	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.
 	1.5. In the **Review** section, click **Create**.\
 	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.
 2. Wait for the infrastructure to finish provisioning. You can monitor the logs on the left side of the page, where output information will appear when the Resource Manager job finishes.\
