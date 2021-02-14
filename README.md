@@ -50,7 +50,7 @@
 	</pre>
 	3.3. Open the motorbike.foam file in ParaView:
 	<pre>
-	by clicking File > Open > choose motorbike.foam
+	click File > Open > choose motorbike.foam
 	</pre>
 	3.4. Under the **Properties** pane on the left side of Paraview, select **Mesh Regions** to select everything, and then deselect the options that do not start with the string **motorBike_**. You can adjust the windows to make this section of the GUI easier to access e.g. by closing **PipeLine Browser** section by clicking **X**.\
 	3.5. Click the green **Apply** button to render the motorbike image. If a window with a list of errors appears, titled **Output Messages**, you may close it.\
