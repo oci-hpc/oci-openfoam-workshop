@@ -9,7 +9,7 @@
 	</pre>
 	1.2. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder, then click **Next**.\
 	1.3. In the **Configure Variables** section, choose:\
-			1.3.1. Your Compartment ID.\
+	&nbsp;1.3.1. Your Compartment ID.\
 		1.3.2. Paste the contents of your SSH Public Key file. (Its default location on your machine is ~/.ssh/id_rsa.pub. You can generate a new key pair if necessary by executing:
 		<pre>
 		ssh-keygen
