@@ -14,11 +14,21 @@
 	1.3. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
 	1.4. In the **Configure Variables** section, choose:
 	- Your Compartment ID.
-	- Paste the contents of your SSH Public Key file. Its default location on your machine is **~/.ssh/id_rsa.pub**. You can generate a new key pair if necessary by executing:
+	- Paste the contents of your SSH Public Key file. The default location of your SSH Public key file on your machine is **~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
+		<pre>
+		pbcopy < ~/.ssh/id_rsa.pub
+		# then paste with CMD+V
+		</pre>
+		or
+		<pre>
+		cat ~/.ssh/id_rsa.pub
+		# capture the output manually with CMD+C, then paste with CMD+V
+		</pre>
+	You can generate a new key pair on Mac OS if necessary by executing:
 		<pre>
 		ssh-keygen
 		</pre>
-	on your Mac or Linux machine and choosing the default options.
+	on your Mac OS or Linux machine and choosing the default options.
 	- The shape of your Compute instance
 	- The Availability Domain (AD) number. Note that the availability of the shape that you use will vary between Availability Domains. You can check the shape limits by navigating from:
 		<pre>
