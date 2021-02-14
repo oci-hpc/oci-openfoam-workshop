@@ -55,7 +55,7 @@
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
 3.	Visualize the Motorbike simulation using ParaView.\
-	<sup>~5 minutes</sup>\
+	<sup>:alarm_clock: ~5 minutes</sup>\
 	3.1. Open Terminal from your VNC Viewer window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
