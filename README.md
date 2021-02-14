@@ -47,7 +47,7 @@
 	<sup>~45 minutes with BM.Standard2.52 shape</sup>\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
-	<sup>~75 minutes with VM.Standard2.8 shape</sup>\
+	<sup>~75 minutes with VM.Standard2.8 shape</sup>
 3.	Connect to your remote host via VNC.
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
