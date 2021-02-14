@@ -2,12 +2,12 @@
 
 ## Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
-1. Deploy the **openfoam-workshop** project on OCI via Resource Manager (~45 minutes):
+1. Deploy the **openfoam-workshop** project on OCI via Resource Manager (~45 minutes):\
 	1.1. Navigate to the Create Stack wizard in Resource Manager:
 	<pre>
 	cloud.oracle.com &gt sign into your OCI account &gt click Hamburger Menu &gt hover over **Resource Manager** &gt click **Stacks** &gt click **Create Stack**
 	</pre>
-	1.2. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder, then click **Next**.
+	1.2. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder, then click **Next**.\
 	1.3. In the **Configure Variables** section, choose:
 	- Your Compartment ID.
 	- Paste the contents of your SSH Public Key file. (Its default location on your machine is ~/.ssh/id_rsa.pub. You can generate a new key pair if necessary by executing:
@@ -32,7 +32,7 @@
 	2.3. Enter **localhost:5901** into the searchbar and press return.\
 	2.4. Enter the password **HPC_oci1** when prompted.\
 	2.5. Click through the default options to get to the end with the VNC setup wizard. (Choose **Next** for language, keyboard layout, location services, and **Skip** for connect online accounts)
-3.	Run the Motorbike simulation in ParaView:
+3.	Run the Motorbike simulation in ParaView:\
 	3.1. Open Terminal from your VNC window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
