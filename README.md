@@ -4,6 +4,7 @@
 ![](./pictures/motorbike.png)
 
 ### Workshop Prerequisites
+- Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) on your local machine as a client application for VNCServer.
 
 ### Workshop Steps
@@ -19,7 +20,7 @@
 	</pre>
 	1.2. Open a web browser and navigate to the **Create Stack** wizard in Resource Manager, in your Compartment:
 	<pre>
-	cloud.oracle.com &gt sign into your OCI Tenancy (account) &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under **List Scope** &gt click <b>Create Stack</b>
+	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under **List Scope** &gt click <b>Create Stack</b>
 	</pre>
 	1.3. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
 	1.4. In the **Configure Variables** section, choose:
@@ -67,7 +68,7 @@
 	<pre>
 	vncserver
 	</pre>
-	3.2. On your local machine, open the client application for VNC, VNC Viewer.\
+	3.2. On your local machine, open VNC Viewer.\
 	3.3. Enter **localhost:5901** into the searchbar and press return.\
 	3.4. Enter the password **HPC_oci1** when prompted.\
 	3.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:
