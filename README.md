@@ -4,7 +4,7 @@
 
 ### Workshop Steps:
 
-1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.
+1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
 	<sup>~10 minutes</sup>\
@@ -48,7 +48,7 @@
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
 	<sup>~75 minutes with VM.Standard2.8 shape</sup>
-3.	Connect to your remote host via VNC.
+3.	Connect to your remote host via VNC.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
 	<sup>~5 minutes</sup>\
@@ -63,7 +63,7 @@
 	<pre>
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
-4.	Visualize the Motorbike simulation using ParaView.
+4.	Visualize the Motorbike simulation using ParaView.\
 	<sup><sub><sup>:clock3:</sup></sub></sup>
 	&nbsp;
 	<sup>~5 minutes</sup>\
