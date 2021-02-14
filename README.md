@@ -11,15 +11,15 @@
 	1.3. In the **Configure Variables** section, choose:
 	- Your Compartment ID.
 	- Paste the contents of your SSH Public Key file. (Its default location on your machine is ~/.ssh/id_rsa.pub. You can generate a new key pair if necessary by executing:
-	<pre>
-	ssh-keygen
-	</pre>
+		<pre>
+		ssh-keygen
+		</pre>
 	on your Mac or Linux machine and choosing the default options).
 	- The shape of your Compute instance
 	- The Availability Domain (AD) number. Note that the availability of the shape that you use will vary between Availability Domains. You can check the shape limits by navigating from:
-	<pre>
-	Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
-	</pre>
+		<pre>
+		Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
+		</pre>
 	1.4. In the **Review** section, click **Create**.
 	1.5. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** &gt **Apply**.
 	1.6. Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.
