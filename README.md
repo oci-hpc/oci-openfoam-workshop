@@ -5,9 +5,9 @@
 ### Workshop Steps:
 
 1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.\
-	<sup><sub><sup>:clock3:</sup></sub></sup>
+	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
-	<sup>~10 minutes</sup>\
+	<sub>~10 minutes</sub>\
 	1.1. Clone this project:
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
@@ -42,16 +42,16 @@
 	1.5. In the **Review** section, click **Create**.\
 	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.
 2. Wait for the infrastructure to finish provisioning. You can monitor the logs on the left side of the page, where output information will appear when the Resource Manager job finishes.\
-	<sup><sub><sup>:clock3:</sup></sub></sup>
+	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
-	<sup>~45 minutes with BM.Standard2.52 shape</sup>\
-	<sup><sub><sup>:clock3:</sup></sub></sup>
+	<sub>~45 minutes with BM.Standard2.52 shape</sub>\
+	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
-	<sup>~75 minutes with VM.Standard2.8 shape</sup>
+	<sub>~75 minutes with VM.Standard2.8 shape</sub>
 3.	Connect to your remote host via VNC.\
-	<sup><sub><sup>:clock3:</sup></sub></sup>
+	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
-	<sup>~5 minutes</sup>\
+	<sub>~5 minutes</sub>\
 	3.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
 	<pre>
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
@@ -64,9 +64,9 @@
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
 4.	Visualize the Motorbike simulation using ParaView.\
-	<sup><sub><sup>:clock3:</sup></sub></sup>
+	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
-	<sup>~5 minutes</sup>\
+	<sub>~5 minutes</sub>\
 	4.1. Open Terminal from your VNC Viewer window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
