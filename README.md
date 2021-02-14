@@ -4,7 +4,7 @@
 
 ### Workshop Steps:
 
-1. Deploy the **openfoam-workshop** project on OCI via Resource Manager: <sub>(~45 minutes with BM.Standard2.52 shape, ~75 minutes with VM.Standard2.8 shape)</sub>\
+1. Deploy the **openfoam-workshop** project on OCI via Resource Manager: <sup>(~45 minutes with BM.Standard2.52 shape, ~75 minutes with VM.Standard2.8 shape)</sup>\
 	1.1. Clone this project:
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
@@ -52,8 +52,7 @@
 	<pre>
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
-3.	Visualize the Motorbike simulation using ParaView:\
-	<sup>(~5 minutes)</sup>\
+3.	Visualize the Motorbike simulation using ParaView:<sup>(~5 minutes)</sup>\
 	3.1. Open Terminal from your VNC Viewer window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
