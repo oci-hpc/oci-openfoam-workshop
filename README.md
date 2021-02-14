@@ -51,7 +51,7 @@
 	<pre>
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
-3.	Run the Motorbike simulation in ParaView:\
+3.	Visualize the Motorbike simulation using ParaView:\
 	3.1. Open Terminal from your VNC Viewer window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
