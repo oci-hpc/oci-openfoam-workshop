@@ -8,7 +8,7 @@
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.
 - An SSH Key Pair on your local machine.
 - Sufficient availability of Compute Instance cores for 1 x the desired Compute shape.
-- Availability and permissions (see [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html)) to manage networking resources (Virtual Cloud Network, Subnet, Route Table, Security List), Compute Instance and Block Volume
+- Availability and permissions (see [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html)) to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance, Block Volume
 
 ### Workshop Steps
 ###### <p align="right">Total Time: 1-1.5 hours</p>
@@ -27,7 +27,7 @@
 	</pre>
 	1.3. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
 	1.4. In the **Configure Variables** section, choose:
-	- Your Compartment.
+	- A Compartment where you have permissions to manage the resources that are mentioned in [Prerequisites](#workshop-prerequisites) section.
 	- Paste the contents of your SSH Public Key file. The default location of your SSH Public key file on your machine is **~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
 		<pre>
 		pbcopy < ~/.ssh/id_rsa.pub
