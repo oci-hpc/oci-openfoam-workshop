@@ -10,7 +10,7 @@
 - Permissions to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance, Block Volume. (See [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html))
 - Sufficient availability to provision 1 x each of the aformentioned resources. You can check resource availability:
 <pre>
-Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
+Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 </pre>
 
 ### Workshop Steps
