@@ -5,8 +5,8 @@
 ### Workshop Steps:
 
 1. Deploy the **openfoam-workshop** project on OCI via Resource Manager.\
-	<sup>~45 minutes with BM.Standard2.52 shape</sup>\
-	<sup>~75 minutes with VM.Standard2.8 shape</sup>\
+	<sup>:alarm_clock: ~45 minutes with BM.Standard2.52 shape</sup>\
+	<sup>:alarm_clock: ~75 minutes with VM.Standard2.8 shape</sup>\
 	1.1. Clone this project:
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
@@ -42,7 +42,7 @@
 	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.\
 	1.7. Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.\
 2.	Connect to your remote host via VNC.\
-	<sup>~5 minutes</sup>\
+	<sup>:alarm_clock: ~5 minutes</sup>\
 	2.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
 	<pre>
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
