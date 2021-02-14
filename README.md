@@ -14,11 +14,11 @@
 	1.3. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
 	1.4. In the **Configure Variables** section, choose:
 	- Your Compartment ID.
-	- Paste the contents of your SSH Public Key file. (Its default location on your machine is ~/.ssh/id_rsa.pub. You can generate a new key pair if necessary by executing:
+	- Paste the contents of your SSH Public Key file. Its default location on your machine is **~/.ssh/id_rsa.pub**. You can generate a new key pair if necessary by executing:
 		<pre>
 		ssh-keygen
 		</pre>
-	on your Mac or Linux machine and choosing the default options).
+	on your Mac or Linux machine and choosing the default options.
 	- The shape of your Compute instance
 	- The Availability Domain (AD) number. Note that the availability of the shape that you use will vary between Availability Domains. You can check the shape limits by navigating from:
 		<pre>
@@ -35,7 +35,10 @@
 	2.2. Open the client application for VNC, VNC Viewer.\
 	2.3. Enter **localhost:5901** into the searchbar and press return.\
 	2.4. Enter the password **HPC_oci1** when prompted.\
-	2.5. Click through the default options to get to the end with the VNC setup wizard. (Choose **Next** for language, keyboard layout, location services, and **Skip** for connect online accounts)
+	2.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:
+	<pre>
+	language > keyboard layout > location services > connect online accounts
+	</pre>
 3.	Run the Motorbike simulation in ParaView:\
 	3.1. Open Terminal from your VNC window:
 	<pre>
