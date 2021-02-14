@@ -59,7 +59,11 @@
 	<pre>
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	</pre>
-	3.2. Open the client application for VNC, VNC Viewer.\
+	3.2. Execute the following command on your remote machine to launch a VNCServer instance on port 5901 on the remote host:
+	<pre>
+	vncserver
+	</pre>
+	3.2. On your local machine, open the client application for VNC, VNC Viewer.\
 	3.3. Enter **localhost:5901** into the searchbar and press return.\
 	3.4. Enter the password **HPC_oci1** when prompted.\
 	3.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:

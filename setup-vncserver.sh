@@ -5,4 +5,3 @@ sudo chown opc:opc /home/opc/.vnc
 echo "HPC_oci1" | vncpasswd -f > /home/opc/.vnc/passwd
 chown opc:opc /home/opc/.vnc/passwd
 chmod 600 /home/opc/.vnc/passwd
-vncserver
