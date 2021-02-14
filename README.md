@@ -37,7 +37,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
 		pbcopy < ~/.ssh/id_rsa.pub
 		# then paste with CMD+V
 		</pre>
-		or
+		&nbsp;or
 		<pre>
 		cat ~/.ssh/id_rsa.pub
 		# capture the output manually with CMD+C, then paste with CMD+V
