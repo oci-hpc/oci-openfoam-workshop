@@ -5,7 +5,7 @@
 ### Workshop Steps:
 
 1. Deploy the **openfoam-workshop** project on OCI via Resource Manager:\
-	(~45 minutes with BM.Standard2.52 shape, ~75 minutes with VM.Standard2.8 shape)\
+	<sub>(~45 minutes with BM.Standard2.52 shape, ~75 minutes with VM.Standard2.8 shape)</sub>\
 	1.1. Clone this project:
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
@@ -41,7 +41,7 @@
 	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.\
 	1.7. Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.\
 2.	Connect to your remote host via VNC:\
-	(~5 minutes)\
+	<sub>(~5 minutes)</sub>\
 	2.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
 	<pre>
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
@@ -53,8 +53,8 @@
 	<pre>
 	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
-3.	Visualize the Motorbike simulation using ParaView:
-	(~5 minutes)\
+3.	Visualize the Motorbike simulation using ParaView:\
+	<sub>(~5 minutes)</sub>
 	3.1. Open Terminal from your VNC Viewer window:
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
