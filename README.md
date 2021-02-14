@@ -5,8 +5,8 @@
 ### Workshop Steps:
 
 1. Deploy the **openfoam-workshop** project on OCI via Resource Manager.\
-	<sup>:alarm_clock: ~45 minutes with BM.Standard2.52 shape</sup>\
-	<sup>:alarm_clock: ~75 minutes with VM.Standard2.8 shape</sup>\
+	:alarm_clock: <sup>~45 minutes with BM.Standard2.52 shape</sup>\
+	:alarm_clock: <sup>~75 minutes with VM.Standard2.8 shape</sup>\
 	1.1. Clone this project:
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
