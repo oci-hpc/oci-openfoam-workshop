@@ -47,7 +47,7 @@
 	- Select a shape for your Compute Instance.\
 	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8** has **8** cores available.
 	- Select the number of the Availability Domain (AD) in which the infrastructure will be deployed.\
-	Note that the availability of the shape that you use will vary between Availability Domains. You can check the shape limits by navigating in your Tenancy as described here:
+	Note that the availability of cores the shape that you use will vary between Availability Domains. You can check the core limits:
 		<pre>
 		Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
 		</pre>
