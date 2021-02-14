@@ -1,6 +1,6 @@
 # oci-openfoam-workshop
 
-OpenFOAM Workshop - Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
+## OpenFOAM Workshop - Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
 1.	Deploy the "openfoam-workshop" project on OCI via Resource Manager (~45 minutes):\
 	a.	cloud.oracle.com > sign into your OCI account > click Hamburger Menu > hover over "Resource Manager" > click "Stacks" > click "Create Stack"\
@@ -10,8 +10,10 @@ OpenFOAM Workshop - Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 	e.	On the "Stack Details" page, Under "Terraform Actions" dropdown menu, click "Apply" > "Apply".\
 	f.	Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.
 2.	Connect to your remote host via VNC:\
-	a.	Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:\
-	b.	ssh -L 5901:localhost:5901 opc@REMOTE_HOST_IP_ADDRESS\
+	a.	Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
+	<pre>
+	ssh -L 5901:localhost:5901 opc@REMOTE_HOST_IP_ADDRESS
+	</pre>
 	c.	Open the client application for VNC, VNC Viewer\
 	d.	Enter "localhost:5901" into the searchbar and press return\
 	e.	Enter the password "HPC_oci1" when prompted\
