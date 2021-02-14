@@ -3,12 +3,16 @@
 ## Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 
 1. Deploy the **openfoam-workshop** project on OCI via Resource Manager (~45 minutes):\
-	1.1. Navigate to the Create Stack wizard in Resource Manager:
+	1.1. Clone this project:
+	<pre>
+	git clone https://github.com/scacela/oci-openfoam-workshop
+	</pre>
+	1.2. Navigate to the Create Stack wizard in Resource Manager:
 	<pre>
 	cloud.oracle.com &gt sign into your OCI account &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt click <b>Create Stack</b>
 	</pre>
-	1.2. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder, then click **Next**.\
-	1.3. In the **Configure Variables** section, choose:
+	1.3. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
+	1.4. In the **Configure Variables** section, choose:
 	- Your Compartment ID.
 	- Paste the contents of your SSH Public Key file. (Its default location on your machine is ~/.ssh/id_rsa.pub. You can generate a new key pair if necessary by executing:
 		<pre>
@@ -20,9 +24,9 @@
 		<pre>
 		Hamburger Menu > Identity > Governance > Limits, Quotas and Usage.
 		</pre>
-	1.4. In the **Review** section, click **Create**.\
-	1.5. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** &gt **Apply**.\
-	1.6. Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.\
+	1.5. In the **Review** section, click **Create**.\
+	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** &gt **Apply**.\
+	1.7. Wait ~37 minutes for your project to deploy. You can monitor the logs on the left side of the page, where output information will appear when the project finishes deploying.\
 2.	Connect to your remote host via VNC:\
 	2.1. Execute the following command from your local machine to map port 5901 on localhost to port 5901 on the remote host:
 	<pre>
