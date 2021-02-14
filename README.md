@@ -5,10 +5,10 @@
 ### Workshop Steps:
 
 1. Provision the infrastructure by deploying the **openfoam-workshop** project on OCI via Resource Manager.\
-	<sup><sub>:clock3:</sup></sub>
+	<sup><sup>:clock3:</sup></sup>
 	&nbsp;&nbsp;
 	<sup>~45 minutes with BM.Standard2.52 shape</sup>\
-	<sup><sub>:clock3:</sup></sub>
+	<sup><sup>:clock3:</sup></sup>
 	&nbsp;&nbsp;
 	<sup>~75 minutes with VM.Standard2.8 shape</sup>\
 	1.1. Clone this project:
