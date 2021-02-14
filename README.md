@@ -3,6 +3,8 @@
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 ![](./pictures/motorbike.png)
 
+### Workshop Prerequisites
+- [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) on your local machine as a client application for VNCServer.
 ### Workshop Steps
 ###### <p align="right">Total Time: 1-1.5 hours</p>
 1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.\
