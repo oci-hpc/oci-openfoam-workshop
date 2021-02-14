@@ -37,7 +37,7 @@
 	2.4. Enter the password **HPC_oci1** when prompted.\
 	2.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:
 	<pre>
-	language > keyboard layout > location services > connect online accounts
+	language options > keyboard layout options > location services options > connect online accounts options
 	</pre>
 3.	Run the Motorbike simulation in ParaView:\
 	3.1. Open Terminal from your VNC window:
