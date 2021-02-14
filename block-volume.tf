@@ -147,7 +147,7 @@ resource "null_resource" "execute_commands" {
       "/home/opc/setup-motorbike.sh",
       "/home/opc/setup-vncserver.sh",
       "vncserver",
-      # "vncserver -kill :1",
+      "vncserver -kill :1",
       "vncserver",
     ]
     connection {

@@ -10,6 +10,14 @@ cp -r /mnt/vol${i}/OpenFOAM-7/tutorials/incompressible/simpleFoam/motorBike .
 # This sed syntax works for Linux
 # remove references to hostfile
 sed -i 's/-machinefile hostfile //g' Allrun
+echo START TEST
+echo '~'
+echo ~
+echo HOME
+echo $HOME
+echo END TEST
+source /home/opc/.bash_profile
+source /home/opc/.bashrc
 source /mnt/vol${i}/OpenFOAM-7/etc/bashrc
 ./Allrun ${num_cores}
 %{ endfor ~}
