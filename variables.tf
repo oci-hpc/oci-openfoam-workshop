@@ -31,6 +31,9 @@ output "ping_info" {
 output "ssh_info" {
   value = ["ssh opc@${oci_core_instance.compute.public_ip} # if private ssh key is in default location, ~/.ssh/id_rsa", "ssh -i <private ssh key path> opc@${oci_core_instance.compute.public_ip}"]
 }
+output "ssh_port_mapping_info_for_VNC" {
+  value = ["ssh -L 5901:localhost:5901 opc@${oci_core_instance.compute.public_ip} # if private ssh key is in default location, ~/.ssh/id_rsa", "ssh -i <private ssh key path> -L 5901:localhost:5901 opc@${oci_core_instance.compute.public_ip}"]
+}
 variable "compute_shape" { default = "VM.Standard2.1" }
 variable "ad_number" { default = 1 }
 locals {
