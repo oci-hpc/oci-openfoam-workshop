@@ -76,7 +76,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	3.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host from the Outputs section on the left side of the screen after the Resource Manager job has completed.
 	<details>
-	<summary><sup>Resource Manager Outputs</sup></summary>
+	<summary><sub><sup><sub>Resource Manager Outputs</sub></sup></sub></summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/03-resource-manager-outputs.png"/></div>
 	</details>
 	<p></p>
@@ -94,10 +94,10 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	vncserver
 	</pre>
 	<p></p>
-	3.2. On your local machine, open VNC Viewer.\
+	3.2. On your local machine, open VNC Viewer.
 	3.3. Enter <b>localhost:5901</b> into the searchbar and press return.\
 	3.4. Enter the password <b>HPC_oci1</b> when prompted.\
-	3.5. Click through the default options (<b>Next</b>, <b>Skip</b>) to get to the end with the VNC setup wizard:
+	3.5. Click through the default options \(<b>Next</b>, <b>Skip</b>\) to get to the end with the VNC setup wizard:
 	<p></p>
 	<pre>
 	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
