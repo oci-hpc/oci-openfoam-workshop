@@ -10,7 +10,7 @@
 - Permissions to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance, Block Volume. (See [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html))
 - Sufficient availability to provision 1 x each of the aformentioned resources. You can check resource availability:
 <pre>
-Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
+Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 </pre>
 
 ### Workshop Steps
@@ -96,7 +96,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	3.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:
 	<p></p>
 	<pre>
-	language options > keyboard layout options > location services options > connect online accounts options
+	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
 	</pre>
 	<p></p>
 4.	Visualize the Motorbike simulation using ParaView.\
