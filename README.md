@@ -18,7 +18,9 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 <details>
 	<summary>Check resource availability</summary>
 <div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/limits/01-governance-limits.png"/></div>
+<p></p>
 <div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/limits/02-check-availability-1.png"/></div>
+<p></p>
 <div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/limits/03-check-availability-2.png"/></div>
 </details>
 
@@ -51,6 +53,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<details>
 		<summary>Stack wizard - Stack Information page</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/04-resourcemanager-stack-wizard-before-file-drop.png"/></div>
+	<p></p>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-file-drop.png"/></div>
 	</details>
 	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
@@ -98,6 +101,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<details>
 		<summary>Apply</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-apply-1.png"/></div>
+	<p></p>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-2.png"/></div>
 	</details>
 	<details>
