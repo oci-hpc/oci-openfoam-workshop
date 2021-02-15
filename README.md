@@ -105,7 +105,10 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	# if private ssh key is in a different location, execute this command:
 	ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	</pre>
-	<p></p>
+	<details>
+		<summary>Port Mapping</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/04-vnc-connection-port-mapping.png"/></div>
+	</details>
 	3.2. Execute the following command on your remote machine to launch a VNCServer instance on port 5901 on the remote host:
 	<p></p>
 	<pre>
