@@ -105,21 +105,32 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	# if private ssh key is in a different location, execute this command:
 	ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	</pre>
-	<details>
-		<summary>Port Mapping</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/04-vnc-connection-port-mapping.png"/></div>
-	</details>
+	<p></p>
 	3.2. Execute the following command on your remote machine to launch a VNCServer instance on port 5901 on the remote host:
 	<p></p>
 	<pre>
 	vncserver
 	</pre>
-	<p></p>
+	<details>
+		<summary>Port Mapping</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/04-vnc-connection-port-mapping.png"/></div>
+	</details>
 	3.2. On your local machine, open VNC Viewer.
-	3.3. Enter <b>localhost:5901</b> into the searchbar and press return.\
-	3.4. Enter the password <b>HPC_oci1</b> when prompted.\
+	3.3. Enter <b>localhost:5901</b> into the searchbar and press return.
+	<details>
+		<summary>VNC Viewer</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/05-vnc-connection-vnc-viewer.png"/></div>
+	</details>
+	3.4. Enter the password <b>HPC_oci1</b> when prompted.
+	<details>
+		<summary>Enter VNC Password</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/06-vnc-connection-enter-password.png"/></div>
+	</details>
 	3.5. Click through the default options \(<b>Next</b>, <b>Skip</b>\) to get to the end with the VNC setup wizard:
-	<p></p>
+	<details>
+		<summary>GUI Desktop Options</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/07-vnc-connection-choose-language.png"/></div>
+	</details>
 	<pre>
 	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
 	</pre>
