@@ -59,12 +59,18 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/>
 	</div>
+	<p></p>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/04-resourcemanager-stack-wizard-before-upload.png"/>
+	</div>
 	</details>
 	</pre>
 	1.4. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
 	<details>
 		<summary>Stack wizard - Stack Information section</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-file-drop.png"/>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-upload-folder.png"/>
+	</div>
+	<p>or</p>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/06-resourcemanager-stack-wizard-after-upload-zipfile.png"/>
 	</div>
 	</details>
 	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
@@ -91,7 +97,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 		on your Mac OS or Linux machine and choosing the default options.
 	<details>
 		<summary>Copy contents of new SSH public key to clipboard</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/06-ssh-key-create-and-copy.png"/>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-ssh-key-create-and-copy.png"/>
 	</div>
 	</details>
 	- Select a shape for your Compute Instance.
@@ -103,26 +109,26 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](#workshop-prerequisites) section.
 	<details>
 		<summary>Stack wizard - <b>Configure Variables</b> section</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-resourcemanager-stack-wizard-variables.png"/>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-variables.png"/>
 	</div>
 	</details>
 	1.6. In the <b>Review</b> section, click <b>Create</b>.
 	<details>
 		<summary>Stack wizard - <b>Review</b> section</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-review.png"/>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-wizard-review.png"/>
 	</div>
 	</details>
 	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
 	<details>
 		<summary>Apply</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-apply-1.png"/>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-1.png"/>
 	</div>
 	<p></p>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-2.png"/></div>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/11-resourcemanager-stack-apply-2.png"/></div>
 	</details>
 	<details>
 		<summary>Resource Manager job in progress</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/11-resourcemanager-job-in-progress.png"/>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/12-resourcemanager-job-in-progress.png"/>
 	</div>
 	</details>
 2. Wait for the infrastructure to finish provisioning.
