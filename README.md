@@ -105,7 +105,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	The name of the shape indicates the number of cores that are available to that shape, e.g. the VM.Standard2.<b>8</b> shape has <b>8</b> cores available.
 	<p></p>
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
-	<p></p>
+	<p></p>\
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](#workshop-prerequisites) section.\
 	When you are finished configuring your variables, click <b>Next</b>.
 	<details>
