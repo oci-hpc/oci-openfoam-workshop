@@ -51,7 +51,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/></div>
 	</details>
 	<details>
-		<summary>Stack wizard - Stack Information page</summary>
+		<summary>Stack wizard - Stack Information section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/04-resourcemanager-stack-wizard-before-file-drop.png"/></div>
 	<p></p>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-file-drop.png"/></div>
@@ -89,12 +89,12 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.
 	<details>
-		<summary>Stack wizard - Variables</summary>
+		<summary>Stack wizard - Configure Variables section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-resourcemanager-stack-wizard-variables.png"/></div>
 	</details>
 	1.5. In the <b>Review</b> section, click <b>Create</b>.
 	<details>
-		<summary>Stack wizard - Review</summary>
+		<summary>Stack wizard - Review section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-review.png"/></div>
 	</details>
 	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
