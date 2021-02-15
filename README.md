@@ -55,7 +55,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	1.4. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
 	<details>
-		<summary>Stack Listings</summary>
+		<summary>Stack listings</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/></div>
 	</details>
 	<details>
