@@ -5,8 +5,9 @@
 	<img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"
 	/>
 </div>
-
+<a name="abcd">
 ### Workshop Prerequisites
+</a>
 - Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.
 - An SSH key pair on your local machine.
@@ -75,7 +76,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	<p></p>
-	- Select a Compartment where you have permissions to manage the resources that are mentioned in the ![Prerequisites](#workshop-prerequisites) section.
+	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#abcd) section.
 	<p></p>
 	- Paste the contents of your SSH public key file.
 	<p></p>
