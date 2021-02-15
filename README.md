@@ -53,9 +53,9 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 		# capture the output manually with CMD+C, then paste with CMD+V
 		</pre>
 		<p>You can generate a new key pair on Mac OS if necessary by executing:</p>
-	<pre>
-	ssh-keygen
-	</pre>
+		<pre style="text-align:left">
+		ssh-keygen
+		</pre>
 		on your Mac OS or Linux machine and choosing the default options.
 	- Select a shape for your Compute Instance.
 	<p></p>
