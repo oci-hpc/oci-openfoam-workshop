@@ -33,10 +33,12 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
 	</pre>
-	1.3. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.\
+	1.3. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
+	<p></p>
 	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
-	- Paste the contents of your SSH Public Key file.\
+	- Paste the contents of your SSH Public Key file.
+	<p></p>
 	The default location of your SSH Public key file on your machine is <b>~/.ssh/id_rsa.pub</b>. You can copy these contents to your clipboard from your Mac OS local machine by executing:
 		<p></p>
 		<pre>
@@ -55,11 +57,15 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 		ssh-keygen
 		</pre>
 		on your Mac OS or Linux machine and choosing the default options.
-	- Select a shape for your Compute Instance.\
+	- Select a shape for your Compute Instance.
+	<p></p>
 	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.<b>8</b> has <b>8</b> cores available.
-	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.\
-	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.\
-	1.5. In the <b>Review</b> section, click <b>Create</b>.\
+	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
+	<p></p>
+	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.
+	<p></p>
+	1.5. In the <b>Review</b> section, click <b>Create</b>.
+	<p></p>
 	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
 2. Wait for the infrastructure to finish provisioning. You can monitor the logs on the left side of the page, where output information will appear when the Resource Manager job finishes.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
