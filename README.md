@@ -21,7 +21,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	<sub>~10 minutes</sub>\
 	\
 	1.1. Clone this project:
-	<sub></sub>
+	#####
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
 	</pre>
