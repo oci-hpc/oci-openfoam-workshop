@@ -16,8 +16,10 @@
 Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 </pre>
 <details>
-	<summary>Governance &gt Limits, Quotas and Usage</summary>
-<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/governance-limits.png"/></div>
+	<summary>Check resource availability</summary>
+<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/limits/01-governance-limits.png"/></div>
+<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/limits/02-check-availability-1.png"/></div>
+<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/limits/03-check-availability-2.png"/></div>
 </details>
 
 ### Workshop Steps
