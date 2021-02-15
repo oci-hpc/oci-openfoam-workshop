@@ -1,10 +1,11 @@
 # oci-openfoam-workshop
 
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
-<details>
+<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/13-paraview-motorbike.png"/></div>
+<!-- <details>
 	<summary>Click me</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/1-*"/></div>
-</details>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/13-paraview-motorbike.png"/></div>
+</details> -->
 
 ### Workshop Prerequisites
 - Access to an OCI Tenancy (account)
