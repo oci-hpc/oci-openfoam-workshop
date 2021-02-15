@@ -5,6 +5,7 @@
 	<img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"
 	/>
 </div>
+
 ### Workshop Prerequisites
 - Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.
