@@ -168,7 +168,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/10-paraview-open-motorbike-file.png"/></div>
 	</details>
 	4.4. Under the <b>Properties</b> pane on the left side of Paraview, select <b>Mesh Regions</b> to select everything, and then deselect the options that do not start with the string <b>motorBike_</b>. You can adjust the windows to make this section of the GUI easier to access e.g. by closing <b>PipeLine Browser</b> section by clicking <b>X</b>.
-	<details>
+	<details style="text-align:right">
 		<summary>Before selection of <b>motorBike_</b> options</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/11-paraview-before-select.png"/></div>
 	</details>
