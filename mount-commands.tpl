@@ -20,7 +20,7 @@ sudo chmod 666 /etc/fstab
 sudo echo "
 # block volumes
 %{ for i, j in map_devicepath_suffix ~}
-${path} /mnt/vol${j} ext4 defaults,_netdev,noatime 0 2
+${i} /mnt/vol${j} ext4 defaults,_netdev,noatime 0 2
 %{ endfor ~}
 " >> /etc/fstab
 sudo chmod 644 /etc/fstab
