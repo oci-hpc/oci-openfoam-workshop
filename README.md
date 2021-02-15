@@ -30,7 +30,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under **List Scope** &gt click <b>Create Stack</b>
 	</pre>
-	1.3. In the **Stack Information** section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
+	1.3. In the <b>Stack Information</b> section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
 	1.4. In the **Configure Variables** section, do the following for the appropriate field:
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
 	- Paste the contents of your SSH Public Key file.\
