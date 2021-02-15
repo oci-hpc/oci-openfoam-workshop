@@ -35,15 +35,13 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	The default location of your SSH Public key file on your machine is **~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
 		<pre>
 		pbcopy &lt ~/.ssh/id_rsa.pub
-		# pbcopy &lt <b>PUBLIC_KEY_PATH</b>
-		<p></p>
+		# pbcopy &lt <b>PUBLIC_KEY_PATH</b>\
 		# then paste with CMD+V
 		</pre>
 		<p>or</p>
 		<pre>
 		cat ~/.ssh/id_rsa.pub
-		# cat <b>PUBLIC_KEY_PATH</b>
-		<p></p>
+		# cat <b>PUBLIC_KEY_PATH</b>\
 		# capture the output manually with CMD+C, then paste with CMD+V
 		</pre>
 	You can generate a new key pair on Mac OS if necessary by executing:
