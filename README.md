@@ -9,7 +9,7 @@
 ### Workshop Prerequisites
 - Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.
-- An SSH Key Pair on your local machine.
+- An SSH key pair on your local machine.
 - Permissions to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance, Block Volume. (See [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html))
 - Sufficient availability to provision 1 x each of the aformentioned resources. You can check resource availability:
 <pre>
@@ -66,9 +66,9 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
-	- Paste the contents of your SSH Public Key file.
+	- Paste the contents of your SSH public key file.
 	<p></p>
-	The default location of your SSH Public key file on your machine is <b>~/.ssh/id_rsa.pub</b>. You can copy these contents to your clipboard from your Mac OS local machine by executing:
+	The default location of your SSH public key file on your machine is <b>~/.ssh/id_rsa.pub</b>. You can copy these contents to your clipboard from your Mac OS local machine by executing:
 		<p></p>
 	<pre>
 	pbcopy &lt ~/.ssh/id_rsa.pub
@@ -96,7 +96,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
 	<p></p>
-	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.
+	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](#workshop-prerequisites) section.
 	<details>
 		<summary>Stack wizard - Configure Variables section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-resourcemanager-stack-wizard-variables.png"/></div>
@@ -149,10 +149,10 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	3.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host from the Outputs section on the left side of the screen after the Resource Manager job has completed.
 	<p></p>
 	<pre>
-	# if private ssh key is in default location, ~/.ssh/id_rsa
+	# if the private SSH key is in default location, ~/.ssh/id_rsa
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	&nbsp;
-	# if private ssh key is in a different location, execute this command:
+	# if the private SSH key is in a different location, execute:
 	ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	</pre>
 	<p></p>
@@ -185,7 +185,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 		<summary>GUI desktop options - choose language</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/07-vnc-connection-choose-language.png"/></div>
 	</details>
-4.	Visualize the Motorbike simulation using ParaView.\
+4.	Visualize the simulation using ParaView.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~5 minutes</sub>
