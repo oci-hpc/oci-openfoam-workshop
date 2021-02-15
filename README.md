@@ -80,15 +80,15 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>
 	<p></p>
 	<details>
-		<summary>Resource Manager: Logs</summary>
+		<summary>Resource Manager - Logs</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/01-resource-manager-logs.png"/></div>
 	</details>
 	<details>
-		<summary>Resource Manager: Variables</summary>
+		<summary>Resource Manager - Variables</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/02-resource-manager-variables.png"/></div>
 	</details>
 	<details>
-		<summary>Resource Manager: Outputs</summary>
+		<summary>Resource Manager - Outputs</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/03-resource-manager-outputs.png"/></div>
 	</details>
 3.	Connect to your remote host via VNC.\
@@ -132,7 +132,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
 	</pre>
 	<details>
-		<summary>GUI desktop options: choose language</summary>
+		<summary>GUI desktop options - choose language</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/07-vnc-connection-choose-language.png"/></div>
 	</details>
 4.	Visualize the Motorbike simulation using ParaView.\
