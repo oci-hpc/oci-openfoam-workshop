@@ -112,18 +112,18 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	vncserver
 	</pre>
 	<details>
-		<summary>Port Mapping</summary>
+		<summary>Port mapping from localhost to remote host</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/04-vnc-connection-port-mapping.png"/></div>
 	</details>
 	3.2. On your local machine, open VNC Viewer.
-	3.3. Enter <b>localhost:5901</b> into the searchbar and press return.
+	3.3. Enter <b>localhost:5901</b> into the search bar and press return.
 	<details>
 		<summary>VNC Viewer</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/05-vnc-connection-vnc-viewer.png"/></div>
 	</details>
 	3.4. Enter the password <b>HPC_oci1</b> when prompted.
 	<details>
-		<summary>Enter VNC Password</summary>
+		<summary>Enter VNC password</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/06-vnc-connection-enter-password.png"/></div>
 	</details>
 	3.5. Click through the default options (<b>Next</b>, <b>Skip</b>) to get to the end with the VNC setup wizard:
@@ -132,7 +132,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
 	</pre>
 	<details>
-		<summary>GUI Desktop Options - First Option</summary>
+		<summary>GUI desktop options - choose language</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/07-vnc-connection-choose-language.png"/></div>
 	</details>
 4.	Visualize the Motorbike simulation using ParaView.\
@@ -146,7 +146,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	click Applications &gt hover over System Utilities &gt click Terminal
 	</pre>
 	<details>
-		<summary>Navigate to Terminal</summary>
+		<summary>Navigate to Terminal on the remote host</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/08-vnc-connection-nav-to-terminal.png"/></div>
 	</details>
 	4.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
@@ -155,7 +155,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	paraview
 	</pre>
 	<details>
-		<summary>Run ParaView</summary>
+		<summary>Run ParaView on the remote host</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/09-vnc-connection-run-paraview.png"/></div>
 	</details>
 	4.3. In ParaView, open the motorbike.foam file:
