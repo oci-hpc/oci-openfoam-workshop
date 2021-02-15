@@ -37,11 +37,12 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	git clone https://github.com/scacela/oci-openfoam-workshop
 	</pre>
 	<p></p>
-	1.2. Remove oci-openfoam-workshop/pictures to eliminate excess data from the project:
+	1.2. Remove oci-openfoam-workshop/pictures and oci-openfoam-workshop/.git to eliminate excess data from the project:
 	<p></p>
 	<pre>
 	cd oci-openfoam-workshop
 	rm -r pictures
+	rm -rf .git
 	</pre>
 	1.3. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your preferred Compartment and Region:
 	<p></p>
