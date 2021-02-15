@@ -15,7 +15,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 
 ### Workshop Steps
 ###### <p align="right">Total Time: 1-2 hours</p>
-1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the **openfoam-workshop** project.
+1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the <b>openfoam-workshop</b> project.
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~10 minutes</sub>
@@ -25,16 +25,16 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<pre>
 	git clone https://github.com/scacela/oci-openfoam-workshop
 	</pre>
-	1.2. Open a web browser and navigate to the **Create Stack** wizard in Resource Manager, in your Compartment:
+	1.2. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your Compartment:
 	<p></p>
 	<pre>
-	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under **List Scope** &gt click <b>Create Stack</b>
+	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
 	</pre>
-	1.3. In the <b>Stack Information</b> section of the **Create Stack** wizard, click **Browse** under **Stack Configuration** and choose the **openfoam-workshop** folder (or .zip file), then click **Next**.\
-	1.4. In the **Configure Variables** section, do the following for the appropriate field:
+	1.3. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next**.\
+	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
 	- Paste the contents of your SSH Public Key file.\
-	The default location of your SSH Public key file on your machine is **~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
+	The default location of your SSH Public key file on your machine is <b>~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
 		<p></p>
 		<pre>
 		pbcopy &lt ~/.ssh/id_rsa.pub
@@ -53,11 +53,11 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 		</pre>
 		on your Mac OS or Linux machine and choosing the default options.
 	- Select a shape for your Compute Instance.\
-	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8** has **8** cores available.
+	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8</b> has <b>8</b> cores available.
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.\
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.\
-	1.5. In the **Review** section, click **Create**.\
-	1.6. On the **Stack Details** page, Under **Terraform Actions** dropdown menu, click **Apply** > **Apply**.
+	1.5. In the <b>Review</b> section, click <b>Create**.\
+	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply**.
 2. Wait for the infrastructure to finish provisioning. You can monitor the logs on the left side of the page, where output information will appear when the Resource Manager job finishes.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
@@ -91,9 +91,9 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	<p></p>
 	3.2. On your local machine, open VNC Viewer.\
-	3.3. Enter **localhost:5901** into the searchbar and press return.\
-	3.4. Enter the password **HPC_oci1** when prompted.\
-	3.5. Click through the default options (**Next**, **Skip**) to get to the end with the VNC setup wizard:
+	3.3. Enter <b>localhost:5901</b> into the searchbar and press return.\
+	3.4. Enter the password <b>HPC_oci1</b> when prompted.\
+	3.5. Click through the default options (**Next**, <b>Skip**) to get to the end with the VNC setup wizard:
 	<p></p>
 	<pre>
 	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
@@ -122,8 +122,8 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	click File > Open > choose /mnt/volb/work/motorbike.foam
 	</pre>
 	<p></p>
-	4.4. Under the **Properties** pane on the left side of Paraview, select **Mesh Regions** to select everything, and then deselect the options that do not start with the string **motorBike_**. You can adjust the windows to make this section of the GUI easier to access e.g. by closing **PipeLine Browser** section by clicking **X**.
+	4.4. Under the <b>Properties</b> pane on the left side of Paraview, select <b>Mesh Regions</b> to select everything, and then deselect the options that do not start with the string <b>motorBike_**. You can adjust the windows to make this section of the GUI easier to access e.g. by closing <b>PipeLine Browser</b> section by clicking <b>X**.
 	<p></p>
-	4.5. Click the green **Apply** button to render the motorbike image. If a window with a list of errors appears, titled **Output Messages**, you may close it.
+	4.5. Click the green <b>Apply</b> button to render the motorbike image. If a window with a list of errors appears, titled <b>Output Messages**, you may close it.
 	<p></p>
 	4.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.
