@@ -73,8 +73,10 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/06-resourcemanager-stack-wizard-after-upload-zipfile.png"/>
 	</div>
 	</details>
-	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:\
-	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.\
+	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
+	<p></p>
+	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
+	<p></p>
 	- Paste the contents of your SSH public key file.
 	<p></p>
 	The default location of your SSH public key file on your machine is <b>~/.ssh/id_rsa.pub</b>. You can copy these contents to your clipboard from your Mac OS local machine by executing:
@@ -105,8 +107,8 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	The name of the shape indicates the number of cores that are available to that shape, e.g. the VM.Standard2.<b>8</b> shape has <b>8</b> cores available.
 	<p></p>
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
-	<p></p>\
-	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](#workshop-prerequisites) section.\
+	<p></p>
+	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](#workshop-prerequisites) section.
 	When you are finished configuring your variables, click <b>Next</b>.
 	<details>
 		<summary>Stack wizard - <b>Configure Variables</b> section</summary>
