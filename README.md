@@ -98,12 +98,12 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](#workshop-prerequisites) section.
 	<details>
-		<summary>Stack wizard - <b>Configure Variables section</b></summary>
+		<summary>Stack wizard - <b>Configure Variables</b> section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-resourcemanager-stack-wizard-variables.png"/></div>
 	</details>
 	1.6. In the <b>Review</b> section, click <b>Create</b>.
 	<details>
-		<summary>Stack wizard - <b>Review section</b></summary>
+		<summary>Stack wizard - <b>Review</b> section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-review.png"/></div>
 	</details>
 	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
