@@ -53,7 +53,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 		# capture the output manually with CMD+C, then paste with CMD+V
 		</pre>
 		<p>You can generate a new key pair on Mac OS if necessary by executing:</p>
-		<pre style="text-align:left">
+		<pre style="text-align:right">
 		ssh-keygen
 		</pre>
 		on your Mac OS or Linux machine and choosing the default options.
