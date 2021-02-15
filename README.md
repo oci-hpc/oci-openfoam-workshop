@@ -1,7 +1,10 @@
 # oci-openfoam-workshop
 
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
-<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/13-paraview-motorbike.png"/></div>
+<div style="text-align:center">
+	<img src="./pictures/openfoam-workshop-vm-standard2-16/13-paraview-motorbike.png"
+	/>
+</div>
 
 ### Workshop Prerequisites
 - Access to an OCI Tenancy (account)
@@ -76,7 +79,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	3.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host from the Outputs section on the left side of the screen after the Resource Manager job has completed.
 	<details>
-	<summary><sub><sup><sub>Resource Manager Outputs</sub></sup></sub></summary>
+	<summary>Resource Manager Outputs</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/03-resource-manager-outputs.png"/></div>
 	</details>
 	<p></p>
