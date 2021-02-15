@@ -36,7 +36,6 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 		<pre>
 		pbcopy &lt ~/.ssh/id_rsa.pub
 		# pbcopy &lt <b>PUBLIC_KEY_PATH</b>
-		<p></p>
 		# then paste with CMD+V
 		</pre>
 		<p>or</p>
