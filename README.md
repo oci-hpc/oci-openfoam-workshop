@@ -67,7 +67,8 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	1.5. In the <b>Review</b> section, click <b>Create</b>.
 	<p></p>
 	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
-2. Wait for the infrastructure to finish provisioning. You can monitor the logs on the left side of the page, where output information will appear when the Resource Manager job finishes.\
+2. Wait for the infrastructure to finish provisioning.
+	From the left side of the page, you can monitor the logs of the Resource Manager job while the job is running, or check the variables, and after the Resource Manager job completes, you can obtain the output values.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~45 minutes with BM.Standard2.52 shape</sub>\
@@ -78,16 +79,24 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	&nbsp;
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>
 	<p></p>
+	<details>
+		<summary>Resource Manager Logs</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/01-resource-manager-logs.png"/></div>
+	</details>
+	<details>
+		<summary>Resource Manager Variables</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/02-resource-manager-variables.png"/></div>
+	</details>
+	<details>
+		<summary>Resource Manager Outputs</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/03-resource-manager-outputs.png"/></div>
+	</details>
 3.	Connect to your remote host via VNC.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~5 minutes</sub>
 	<p></p>
 	3.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host from the Outputs section on the left side of the screen after the Resource Manager job has completed.
-	<details>
-		<summary>Resource Manager Outputs</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/03-resource-manager-outputs.png"/></div>
-	</details>
 	<p></p>
 	<pre>
 	# if private ssh key is in default location, ~/.ssh/id_rsa
