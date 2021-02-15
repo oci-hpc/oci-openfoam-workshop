@@ -36,14 +36,12 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 		<pre>
 		pbcopy &lt ~/.ssh/id_rsa.pub
 		# pbcopy &lt <b>PUBLIC_KEY_PATH</b>
-		<b></b>
 		# then paste with CMD+V
 		</pre>
 		<p>or</p>
 		<pre>
 		cat ~/.ssh/id_rsa.pub
 		# cat <b>PUBLIC_KEY_PATH</b>
-		<b></b>
 		# capture the output manually with CMD+C, then paste with CMD+V
 		</pre>
 	You can generate a new key pair on Mac OS if necessary by executing:
