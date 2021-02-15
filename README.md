@@ -51,7 +51,6 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 		<pre>
 		ssh-keygen
 		</pre>
-		<p></p>
 		on your Mac OS or Linux machine and choosing the default options.
 	- Select a shape for your Compute Instance.\
 	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8** has **8** cores available.
