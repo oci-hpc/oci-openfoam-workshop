@@ -4,7 +4,6 @@
 <details>
   <summary>Click to expand!</summary>
   <div style="text-align:center"><img src="./pictures/motorbike.png"/></div>
-	![](./pictures/motorbike.png)
 </details>
 
 ### Workshop Prerequisites
