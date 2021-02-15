@@ -2,7 +2,7 @@
 
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 <div style="text-align:center">
-	<img src="./pictures/openfoam-workshop-vm-standard2-16/13-paraview-motorbike.png"
+	<img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"
 	/>
 </div>
 
@@ -15,6 +15,10 @@
 <pre>
 Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 </pre>
+<details>
+	<summary>Governance &gt Limits, Quotas and Usage</summary>
+<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/governance-limits.png"/></div>
+</details>
 
 ### Workshop Steps
 ###### <p align="right">Total Time: 1-2 hours</p>
@@ -32,9 +36,24 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
+	<details>
+		<summary>Resource Manager &gt Stacks</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/02-resourcemanager-stacks.png"/></div>
+	</details>
 	</pre>
 	1.3. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
-	<p></p>
+	<details>
+		<summary>Stack Listings</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/></div>
+	</details>
+	<details>
+		<summary>Stack wizard before file-drop</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/04-resourcemanager-stack-wizard-before-file-drop.png"/></div>
+	</details>
+	<details>
+		<summary>Stack wizard after file-drop</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-file-drop.png"/></div>
+	</details>
 	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
 	- Paste the contents of your SSH Public Key file.
@@ -57,16 +76,35 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	ssh-keygen
 	</pre>
 		on your Mac OS or Linux machine and choosing the default options.
+	<details>
+		<summary>Copying contents of new SSH public key to clipboard</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/06-ssh-key-create-and-copy.png"/></div>
+	</details>
 	- Select a shape for your Compute Instance.
 	<p></p>
 	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.<b>8</b> has <b>8</b> cores available.
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
 	<p></p>
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.
-	<p></p>
+	<details>
+		<summary>Stack wizard - Variables</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-resourcemanager-stack-wizard-variables.png"/></div>
+	</details>
 	1.5. In the <b>Review</b> section, click <b>Create</b>.
-	<p></p>
+	<details>
+		<summary>Stack wizard - Review</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-review.png"/></div>
+	</details>
 	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
+	<details>
+		<summary>Apply</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-apply-1.png"/></div>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-2.png"/></div>
+	</details>
+	<details>
+		<summary>Resource Manager job in progress</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/11-resourcemanager-job-in-progress.png"/></div>
+	</details>
 2. Wait for the infrastructure to finish provisioning.
 	From the left side of the page, you can monitor the logs of the Resource Manager job while the job is running, or check the variables, and after the Resource Manager job completes, you can obtain the output values.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
@@ -81,15 +119,15 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	<details>
 		<summary>Resource Manager - Logs</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/01-resource-manager-logs.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/01-resource-manager-logs.png"/></div>
 	</details>
 	<details>
 		<summary>Resource Manager - Variables</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/02-resource-manager-variables.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/02-resource-manager-variables.png"/></div>
 	</details>
 	<details>
 		<summary>Resource Manager - Outputs</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/03-resource-manager-outputs.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/03-resource-manager-outputs.png"/></div>
 	</details>
 3.	Connect to your remote host via VNC.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
@@ -113,18 +151,18 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	<details>
 		<summary>Port mapping from localhost to remote host</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/04-vnc-connection-port-mapping.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/04-vnc-connection-port-mapping.png"/></div>
 	</details>
 	3.2. On your local machine, open VNC Viewer.
 	3.3. Enter <b>localhost:5901</b> into the search bar and press return.
 	<details>
 		<summary>VNC Viewer</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/05-vnc-connection-vnc-viewer.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/05-vnc-connection-vnc-viewer.png"/></div>
 	</details>
 	3.4. Enter the password <b>HPC_oci1</b> when prompted.
 	<details>
 		<summary>Enter VNC password</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/06-vnc-connection-enter-password.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/06-vnc-connection-enter-password.png"/></div>
 	</details>
 	3.5. Click through the default options (<b>Next</b>, <b>Skip</b>) to get to the end with the VNC setup wizard:
 	<p></p>
@@ -133,7 +171,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	<details>
 		<summary>GUI desktop options - choose language</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/07-vnc-connection-choose-language.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/07-vnc-connection-choose-language.png"/></div>
 	</details>
 4.	Visualize the Motorbike simulation using ParaView.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
@@ -147,7 +185,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	<details>
 		<summary>Navigate to Terminal on the remote host</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/08-vnc-connection-nav-to-terminal.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/08-vnc-connection-nav-to-terminal.png"/></div>
 	</details>
 	4.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
 	<p></p>
@@ -156,7 +194,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	<details>
 		<summary>Run ParaView on the remote host</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/09-vnc-connection-run-paraview.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/09-vnc-connection-run-paraview.png"/></div>
 	</details>
 	4.3. In ParaView, open the motorbike.foam file:
 	<p></p>
@@ -165,24 +203,21 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	<details>
 		<summary>Open motorbike.foam in ParaView</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/10-paraview-open-motorbike-file.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/10-paraview-open-motorbike-file.png"/></div>
 	</details>
 	4.4. Under the <b>Properties</b> pane on the left side of Paraview, select <b>Mesh Regions</b> to select everything, and then deselect the options that do not start with the string <b>motorBike_</b>. You can adjust the windows to make this section of the GUI easier to access e.g. by closing <b>PipeLine Browser</b> section by clicking <b>X</b>.
 	<details>
-		&nbsp;&nbsp;&nbsp;&nbsp;
-		<summary>
-			Before selection of <b>motorBike_</b> options
-		</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/11-paraview-before-select.png"/></div>
+		<summary>Before selection of <b>motorBike_</b> options</summary>
+		<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/11-paraview-before-select.png"/></div>
 	</details>
 	<details>
 		<summary>After selection of <b>motorBike_</b> options</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/12-paraview-after-select.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/12-paraview-after-select.png"/></div>
 	</details>
 	4.5. Click the green <b>Apply</b> button to render the motorbike image. If a window with a list of errors appears, titled <b>Output Messages</b>, you may close it.
 	<p></p>
 	4.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.
 	<details>
 		<summary>Motorbike Simulation</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/13-paraview-motorbike.png"/></div>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"/></div>
 	</details>
