@@ -35,7 +35,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
 	- Paste the contents of your SSH Public Key file.\
 	The default location of your SSH Public key file on your machine is **~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
-	#####
+		#####
 		<pre>
 		pbcopy &lt ~/.ssh/id_rsa.pub
 		# pbcopy &lt <b>PUBLIC_KEY_PATH</b>
