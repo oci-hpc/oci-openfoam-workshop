@@ -47,13 +47,11 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 		# cat <b>PUBLIC_KEY_PATH</b>
 		# capture the output manually with CMD+C, then paste with CMD+V
 		</pre>
-		#####
-		You can generate a new key pair on Mac OS if necessary by executing:
-		#####
+		<p>You can generate a new key pair on Mac OS if necessary by executing:</p>
 		<pre>
 		ssh-keygen
 		</pre>
-		#####
+		<p></p>
 		on your Mac OS or Linux machine and choosing the default options.
 	- Select a shape for your Compute Instance.\
 	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8** has **8** cores available.
