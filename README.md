@@ -92,7 +92,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	- Select a shape for your Compute Instance.
 	<p></p>
-	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.<b>8</b> has <b>8</b> cores available.
+	The name of the shape indicates the number of cores that are available to that shape, e.g. the VM.Standard2.<b>8</b> shape has <b>8</b> cores available.
 	<p></p>
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
 	<p></p>
