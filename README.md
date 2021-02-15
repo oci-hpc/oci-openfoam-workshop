@@ -37,7 +37,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	git clone https://github.com/scacela/oci-openfoam-workshop
 	</pre>
 	<p></p>
-	1.2. Remove oci-openfoam-workshop/pictures and oci-openfoam-workshop/.git to eliminate excess data from the project:
+	1.2. Remove <b>oci-openfoam-workshop/pictures</b> and <b>oci-openfoam-workshop/.git</b> to eliminate excess data from the project:
 	<p></p>
 	<pre>
 	cd oci-openfoam-workshop
