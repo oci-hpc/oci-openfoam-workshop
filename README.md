@@ -79,7 +79,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	<pre>
 	# if private ssh key is in default location, ~/.ssh/id_rsa
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
-	<p></p>
+	&nbsp;
 	# if private ssh key is in a different location, execute this command:
 	ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 	</pre>
