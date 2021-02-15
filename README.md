@@ -34,7 +34,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
 	- Paste the contents of your SSH Public Key file.\
-	The default location of your SSH Public key file on your machine is <b>~/.ssh/id_rsa.pub**. You can copy these contents to your clipboard from your Mac OS local machine by executing:
+	The default location of your SSH Public key file on your machine is <b>~/.ssh/id_rsa.pub</b>. You can copy these contents to your clipboard from your Mac OS local machine by executing:
 		<p></p>
 		<pre>
 		pbcopy &lt ~/.ssh/id_rsa.pub
@@ -53,11 +53,11 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 		</pre>
 		on your Mac OS or Linux machine and choosing the default options.
 	- Select a shape for your Compute Instance.\
-	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.**8</b> has <b>8</b> cores available.
+	The name of the shape indicates the number of cores that are available to that shape, e.g. VM.Standard2.<b>8</b> has <b>8</b> cores available.
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.\
 	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check Resource Availability is described in the [Prerequisites](#workshop-prerequisites) section.\
-	1.5. In the <b>Review</b> section, click <b>Create**.\
-	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply**.
+	1.5. In the <b>Review</b> section, click <b>Create</b>.\
+	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
 2. Wait for the infrastructure to finish provisioning. You can monitor the logs on the left side of the page, where output information will appear when the Resource Manager job finishes.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
@@ -93,7 +93,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	3.2. On your local machine, open VNC Viewer.\
 	3.3. Enter <b>localhost:5901</b> into the searchbar and press return.\
 	3.4. Enter the password <b>HPC_oci1</b> when prompted.\
-	3.5. Click through the default options (**Next**, <b>Skip**) to get to the end with the VNC setup wizard:
+	3.5. Click through the default options (<b>Next</b>, <b>Skip</b>) to get to the end with the VNC setup wizard:
 	<p></p>
 	<pre>
 	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
@@ -122,8 +122,8 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	click File > Open > choose /mnt/volb/work/motorbike.foam
 	</pre>
 	<p></p>
-	4.4. Under the <b>Properties</b> pane on the left side of Paraview, select <b>Mesh Regions</b> to select everything, and then deselect the options that do not start with the string <b>motorBike_**. You can adjust the windows to make this section of the GUI easier to access e.g. by closing <b>PipeLine Browser</b> section by clicking <b>X**.
+	4.4. Under the <b>Properties</b> pane on the left side of Paraview, select <b>Mesh Regions</b> to select everything, and then deselect the options that do not start with the string <b>motorBike_</b>. You can adjust the windows to make this section of the GUI easier to access e.g. by closing <b>PipeLine Browser</b> section by clicking <b>X</b>.
 	<p></p>
-	4.5. Click the green <b>Apply</b> button to render the motorbike image. If a window with a list of errors appears, titled <b>Output Messages**, you may close it.
+	4.5. Click the green <b>Apply</b> button to render the motorbike image. If a window with a list of errors appears, titled <b>Output Messages</b>, you may close it.
 	<p></p>
 	4.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.
