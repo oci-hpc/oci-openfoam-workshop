@@ -74,7 +74,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	<p></p>
-	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.<a href="#workshop-prerequisites">Click here to see the content below.</a>
+	- Select a Compartment where you have permissions to manage the resources that are mentioned in the <a href="#workshop-prerequisites">Prerequisites</a> section.
 	<p></p>
 	- Paste the contents of your SSH public key file.
 	<p></p>
