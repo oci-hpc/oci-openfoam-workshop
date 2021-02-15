@@ -43,7 +43,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	cd oci-openfoam-workshop
 	rm -r pictures
 	</pre>
-	1.3. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your Compartment:
+	1.3. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your preferred Compartment and Region:
 	<p></p>
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
