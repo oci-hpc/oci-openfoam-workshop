@@ -126,15 +126,15 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 		<summary>Enter VNC Password</summary>
 	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/06-vnc-connection-enter-password.png"/></div>
 	</details>
-	3.5. Click through the default options \(<b>Next</b>, <b>Skip</b>\) to get to the end with the VNC setup wizard:
-	<details>
-		<summary>GUI Desktop Options</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/07-vnc-connection-choose-language.png"/></div>
-	</details>
+	3.5. Click through the default options (<b>Next</b>, <b>Skip</b>) to get to the end with the VNC setup wizard:
+	<p></p>
 	<pre>
 	language options &gt keyboard layout options &gt location services options &gt connect online accounts options
 	</pre>
-	<p></p>
+	<details>
+		<summary>GUI Desktop Options - First Option</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/07-vnc-connection-choose-language.png"/></div>
+	</details>
 4.	Visualize the Motorbike simulation using ParaView.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
@@ -145,21 +145,41 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	<pre>
 	click Applications &gt hover over System Utilities &gt click Terminal
 	</pre>
-	<p></p>
+	<details>
+		<summary>Navigate to Terminal</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/08-vnc-connection-nav-to-terminal.png"/></div>
+	</details>
 	4.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
 	<p></p>
 	<pre>
 	paraview
 	</pre>
-	<p></p>
+	<details>
+		<summary>Run ParaView</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/09-vnc-connection-run-paraview.png"/></div>
+	</details>
 	4.3. In ParaView, open the motorbike.foam file:
 	<p></p>
 	<pre>
 	click File > Open > choose /mnt/volb/work/motorbike.foam
 	</pre>
-	<p></p>
+	<details>
+		<summary>Open motorbike.foam</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/10-paraview-open-motorbike-file.png"/></div>
+	</details>
 	4.4. Under the <b>Properties</b> pane on the left side of Paraview, select <b>Mesh Regions</b> to select everything, and then deselect the options that do not start with the string <b>motorBike_</b>. You can adjust the windows to make this section of the GUI easier to access e.g. by closing <b>PipeLine Browser</b> section by clicking <b>X</b>.
-	<p></p>
+	<details>
+		<summary>Before Selection</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/11-paraview-before-select.png"/></div>
+	</details>
+	<details>
+		<summary>After Selection</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/12-paraview-after-select.png"/></div>
+	</details>
 	4.5. Click the green <b>Apply</b> button to render the motorbike image. If a window with a list of errors appears, titled <b>Output Messages</b>, you may close it.
 	<p></p>
 	4.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.
+	<details>
+		<summary>Motorbike Simulation</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/13-paraview-motorbike.png"/></div>
+	</details>
