@@ -1,4 +1,4 @@
-%{ for i in suffix ~}
+%{ for i in list_suffix ~}
 # make new directory for the motorbike workshop
 mkdir -p /mnt/vol${i}/work
 cd /mnt/vol${i}/work

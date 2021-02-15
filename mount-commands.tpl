@@ -1,13 +1,13 @@
 # commands to mount block volumes
 
 # make folders for each volume
-%{ for i in suffix ~}
+%{ for i in list_suffix ~}
 sudo mkdir -p /mnt/vol${i}
 %{ endfor ~}
 
 # make the ext4 filesystem for each volume, go with defaults
 # note that the -F parameter (Force) is used to disable interactive mode.
-%{ for i in device_path ~}
+%{ for i in list_devicepath ~}
 sudo mkfs.ext4 -F ${i}
 %{ endfor ~}
 # for interactive mode: enter y (DOS partition table found in the device path, proceed anyway)
@@ -19,8 +19,8 @@ sudo mkfs.ext4 -F ${i}
 sudo chmod 666 /etc/fstab
 sudo echo "
 # block volumes
-%{ for path, suffix in device_path_and_suffix ~}
-${path} /mnt/vol${suffix} ext4 defaults,_netdev,noatime 0 2
+%{ for i, j in map_devicepath_suffix ~}
+${path} /mnt/vol${j} ext4 defaults,_netdev,noatime 0 2
 %{ endfor ~}
 " >> /etc/fstab
 sudo chmod 644 /etc/fstab

@@ -47,9 +47,9 @@ resource "null_resource" "make_iscsi_file" {
 resource "null_resource" "make_mount_file" {
   provisioner "file" {
     content = templatefile("./mount-commands.tpl", {
-      suffix = local.bv_device_path_suffix,
-      device_path = formatlist("${local.bv_device_path_prefix}%s", local.bv_device_path_suffix),
-      device_path_and_suffix = zipmap(formatlist("${local.bv_device_path_prefix}%s", local.bv_device_path_suffix), local.bv_device_path_suffix)
+      list_suffix = local.bv_device_path_suffix,
+      list_devicepath = formatlist("${local.bv_device_path_prefix}%s", local.bv_device_path_suffix),
+      map_devicepath_suffix = zipmap(formatlist("${local.bv_device_path_prefix}%s", local.bv_device_path_suffix), local.bv_device_path_suffix)
       })
     destination = "/home/opc/mount-commands.sh"
     connection {
@@ -65,7 +65,7 @@ resource "null_resource" "make_mount_file" {
 resource "null_resource" "make_openfoam_file" {
   provisioner "file" {
     content = templatefile("./setup-openfoam.tpl", {
-      suffix = local.bv_device_path_suffix,
+      list_suffix = local.bv_device_path_suffix,
       num_cores = element(regex("[.]([0-9]+)$", var.compute_shape), 0)
       })
     destination = "/home/opc/setup-openfoam.sh"
@@ -83,8 +83,7 @@ resource "null_resource" "make_paraview_file" {
   depends_on = [oci_core_volume_attachment.bv_attachment]
   provisioner "file" {
     content = templatefile("./setup-paraview.tpl", {
-      suffix = local.bv_device_path_suffix,
-      suffix_or_empty = length(local.bv_device_path_suffix) > 1 ? local.bv_device_path_suffix : [""] # no suffix if only one device path in the deployment
+      map_suffix_emptyorsuffix = zipmap(local.bv_device_path_suffix, length(local.bv_device_path_suffix) > 1 ? local.bv_device_path_suffix : [""])
       })
     destination = "/home/opc/setup-paraview.sh"
     connection {
@@ -100,7 +99,7 @@ resource "null_resource" "make_paraview_file" {
 resource "null_resource" "make_motorbike_file" {
   provisioner "file" {
     content = templatefile("./setup-motorbike.tpl", {
-      suffix = local.bv_device_path_suffix,
+      list_suffix = local.bv_device_path_suffix,
       num_cores = element(regex("[.]([0-9]+)$", var.compute_shape), 0)
       })
     destination = "/home/opc/setup-motorbike.sh"

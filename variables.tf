@@ -25,6 +25,10 @@ output "bv_attachment_info" {
 output "mount_commands" {
   value = "cat /home/opc/mount-commands.sh"
 }
+}
+output "public_ip_address" {
+  value = oci_core_instance.compute.public_ip
+}
 output "ping_info" {
   value = "ping ${oci_core_instance.compute.public_ip}"
 }

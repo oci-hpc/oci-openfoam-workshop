@@ -1,6 +1,6 @@
 sudo yum groupinstall -y 'Development Tools'
 sudo yum -y install devtoolset-8 gcc-c++ zlib-devel openmpi openmpi-devel
-%{ for i in suffix ~}
+%{ for i in list_suffix ~}
 cd /mnt/vol${i}
 wget -O - http://dl.openfoam.org/source/7 | tar xvz
 wget -O - http://dl.openfoam.org/third-party/7 | tar xvz
