@@ -43,11 +43,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	cd oci-openfoam-workshop
 	rm -r pictures
 	</pre>
-	<p></p>
-	<pre>
-	git clone https://github.com/scacela/oci-openfoam-workshop
-	</pre>
-	1.2. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your Compartment:
+	1.3. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your Compartment:
 	<p></p>
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
@@ -56,7 +52,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/02-resourcemanager-stacks.png"/></div>
 	</details>
 	</pre>
-	1.3. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
+	1.4. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
 	<details>
 		<summary>Stack Listings</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/></div>
@@ -67,7 +63,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-file-drop.png"/></div>
 	</details>
-	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
+	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](#workshop-prerequisites) section.
 	- Paste the contents of your SSH Public Key file.
 	<p></p>
@@ -103,12 +99,12 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 		<summary>Stack wizard - Configure Variables section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-resourcemanager-stack-wizard-variables.png"/></div>
 	</details>
-	1.5. In the <b>Review</b> section, click <b>Create</b>.
+	1.6. In the <b>Review</b> section, click <b>Create</b>.
 	<details>
 		<summary>Stack wizard - Review section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-review.png"/></div>
 	</details>
-	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
+	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b>.
 	<details>
 		<summary>Apply</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-apply-1.png"/></div>
