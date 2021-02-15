@@ -228,7 +228,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	4.5. Click the green <b>Apply</b> button to render the motorbike image. If a window with a list of errors appears, titled <b>Output Messages</b>, you may close it.
 	<p></p>
-	4.6. Use your mouse and its left-click button to manipulate the virtual motorbike that appears.
+	4.6. The motorbike model should appear in the large window titled <b>RenderView1</b>. Use your mouse and its left-click button to manipulate it in virtual 3D space!
 	<details>
 		<summary>Motorbike Simulation</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"/></div>
