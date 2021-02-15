@@ -133,12 +133,10 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 2. Wait for the infrastructure to finish provisioning.
 	From the left side of the page, you can monitor the logs of the Resource Manager job while the job is running, or check the variables, and after the Resource Manager job completes, you can obtain the output values.\
-	<!---
-	<sub><sup><sub>:clock3:</sub></sup></sub>
-	&nbsp;
-	<sub>~45 minutes with BM.Standard2.52 shape</sub>\
-	-->
-	<sub><sup><sub>:clock3:</sub></sup></sub>
+	[//]: # <sub><sup><sub>:clock3:</sub></sup></sub>
+	[//]: # &nbsp;
+	[//]: # <sub>~45 minutes with BM.Standard2.52 shape</sub>\
+	[//]: # <sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~60 minutes with VM.Standard2.16 shape</sub>\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
