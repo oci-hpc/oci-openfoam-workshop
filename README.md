@@ -49,11 +49,8 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/></div>
 	</details>
 	<details>
-		<summary>Stack wizard before file-drop</summary>
+		<summary>Stack wizard - Stack Information page</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/04-resourcemanager-stack-wizard-before-file-drop.png"/></div>
-	</details>
-	<details>
-		<summary>Stack wizard after file-drop</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-file-drop.png"/></div>
 	</details>
 	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
@@ -79,7 +76,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 		on your Mac OS or Linux machine and choosing the default options.
 	<details>
-		<summary>Copying contents of new SSH public key to clipboard</summary>
+		<summary>Copy contents of new SSH public key to clipboard</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/06-ssh-key-create-and-copy.png"/></div>
 	</details>
 	- Select a shape for your Compute Instance.
