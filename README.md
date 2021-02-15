@@ -46,7 +46,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	# pbcopy &lt <b>PUBLIC_KEY_PATH</b>
 	# then paste with CMD+V
 	</pre>
-	<div style="text-align:center">or</div>
+	<p>or</p>
 	<pre>
 	cat ~/.ssh/id_rsa.pub
 	# cat <b>PUBLIC_KEY_PATH</b>
