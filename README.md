@@ -1,8 +1,9 @@
 # oci-openfoam-workshop
-<details><summary>
+
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
-  </summary>
-  <div style="text-align:center"><img src="./pictures/motorbike.png"/></div>
+<details>
+	<summary>Click me</summary>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/1-*"/></div>
 </details>
 
 ### Workshop Prerequisites
