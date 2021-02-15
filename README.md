@@ -47,6 +47,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
+	</pre>
 	<details>
 		<summary>Resource Manager &gt Stacks</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/02-resourcemanager-stacks.png"/></div>
