@@ -69,7 +69,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 	&nbsp;
 	<sub>~5 minutes</sub>\
 	\
-	3.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host from the Outputs section on the left side of the screen once the Resource Manager job has completed.
+	3.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host from the Outputs section on the left side of the screen after the Resource Manager job has completed.
 	<pre>
 	# if private ssh key is in default location, ~/.ssh/id_rsa
 	ssh -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
