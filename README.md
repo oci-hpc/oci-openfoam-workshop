@@ -108,7 +108,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
 	<p></p>
-	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](#workshop-prerequisites) section.
+	Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the <a href="#workshop-prerequisites">Prerequisites</a> section.
 	When you are finished configuring your variables, click <b>Next</b>.
 	<details>
 		<summary>Stack wizard - <b>Configure Variables</b> section</summary>
