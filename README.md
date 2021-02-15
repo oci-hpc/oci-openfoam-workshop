@@ -43,7 +43,7 @@ Hamburger Menu > Identity > Governance > Limits, Quotas and Usage
 		<pre>
 		cat ~/.ssh/id_rsa.pub
 		# cat <b>PUBLIC_KEY_PATH</b>
-		<div></div>
+		<b></b>
 		# capture the output manually with CMD+C, then paste with CMD+V
 		</pre>
 	You can generate a new key pair on Mac OS if necessary by executing:
