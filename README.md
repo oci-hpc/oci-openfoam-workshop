@@ -107,7 +107,7 @@ Hamburger Menu &gt Identity &gt Governance &gt Limits, Quotas and Usage
 	</pre>
 	<details>
 		<summary>Port Mapping</summary>
-	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/04-vnc-connection-port-mappin.png"/></div>
+	<div style="text-align:center"><img src="./pictures/openfoam-workshop-vm-standard2-16/04-vnc-connection-port-mapping.png"/></div>
 	</details>
 	3.2. Execute the following command on your remote machine to launch a VNCServer instance on port 5901 on the remote host:
 	<p></p>
