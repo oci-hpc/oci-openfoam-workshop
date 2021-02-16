@@ -237,7 +237,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	4.3. In ParaView, open the motorbike.foam file:
 	<p></p>
 	<pre>
-	click File > Open > choose /mnt/volb/work/motorbike.foam
+	File > Open > choose <b>/mnt/volb/work/motorbike.foam</b>
 	</pre>
 	<details>
 		<summary>Open motorbike.foam in ParaView</summary>
