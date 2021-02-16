@@ -158,7 +158,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	<details>
 		<summary>Resource Manager - <b>Apply</b> job complete</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply-1.png"/>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply.png"/>
 	</div>
 	</details>
 	<details>
