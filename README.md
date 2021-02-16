@@ -147,11 +147,6 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>
 	<p></p>
 	<details>
-		<summary>Resource Manager - <b>Apply</b> job complete</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply.png"/>
-	</div>
-	</details>
-	<details>
 		<summary>Resource Manager - Logs</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/01-resourcemanager-logs.png"/>
 	</div>
@@ -159,6 +154,11 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<details>
 		<summary>Resource Manager - Variables</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/02-resourcemanager-variables.png"/>
+	</div>
+	</details>
+	<details>
+		<summary>Resource Manager - <b>Apply</b> job complete</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply.png"/>
 	</div>
 	</details>
 	<details>
