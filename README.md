@@ -269,7 +269,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	&nbsp;
 	<sub>~5 minutes</sub>
 	<p></p>
-	5.1. From your web browser, navigate to the Stack listings page in Resource Manager, in the same compartment where your Stack was deployed:
+	5.1. From your web browser, navigate to the Stack listings page in Resource Manager, in the same Compartment and Region where your Stack was deployed:
 	<p></p>
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b>
