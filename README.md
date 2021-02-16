@@ -96,7 +96,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<pre>
 	ssh-keygen
 	</pre>
-		on your Mac OS or Linux machine and choosing the default options.
+		on your Mac OS or Linux machine and specifying (1.) the path on your local machine where the key pair will be saved, and (2.) no passphrase for the key pair.
 	<details>
 		<summary>Copy contents of new SSH public key to clipboard</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-ssh-key-create-and-copy.png"/>
