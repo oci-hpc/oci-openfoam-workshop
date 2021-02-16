@@ -137,3 +137,39 @@
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/03-resourcemanager-outputs.png"/>
 	</div>
 	</details>
+
+3. [Visualize on OCI] (https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
+
+	4.	Launch a job via Resource Manager that deprovisions the
+	infrastructure.\
+	<sub><sup><sub>:clock3:</sub></sup></sub>
+	&nbsp;
+	<sub>~5 minutes</sub>
+	<p></p>
+	4.1. From your web browser, navigate to the Stack listings page in Resource Manager, in the same Compartment and Region where your Stack was deployed:
+	<p></p>
+	<pre>
+	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b>
+	</pre>
+	<details>
+		<summary>Navigate to the Stack listings page</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/14-resourcemanager-stack-listings.png"/>
+	</div>
+	</details>
+	4.2. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Destroy</b> > <b>Destroy</b> to deprovision the infrastructure.
+	<details>
+		<summary>Deprovision the infrastructure</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/15-resourcemanager-destroy-1.png"/>
+	</div>
+	<p></p>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/16-resourcemanager-destroy-2.png"/></div>
+	</details>
+	<details>
+		<summary>Resource Manager - <b>Destroy</b> job in progress</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/17-resourcemanager-job-in-progress-destroy.png"/>
+	</div>
+	</details>
+	<details>
+		<summary>Resource Manager - <b>Destroy</b> job complete</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/18-resourcemanager-job-complete-destroy.png"/>
+	</div>
