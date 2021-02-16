@@ -217,7 +217,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	4.1. Open Terminal from your VNC Viewer window:
 	<p></p>
 	<pre>
-	click Applications &gt hover over System Utilities &gt click Terminal
+	click <b>Applications</b> &gt hover over <b>System Utilities</b> &gt click <b>Terminal</b>
 	</pre>
 	<details>
 		<summary>Navigate to Terminal on the remote host</summary>
