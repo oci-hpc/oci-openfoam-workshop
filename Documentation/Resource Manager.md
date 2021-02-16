@@ -138,7 +138,7 @@
 	</div>
 	</details>
 
-3. Visualize on OCI](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
+3. [Visualize on OCI](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
 
 	4.	Launch a job via Resource Manager that deprovisions the
 	infrastructure.\
