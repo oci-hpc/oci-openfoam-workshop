@@ -140,8 +140,8 @@
 
 3. [Visualize on OCI](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
 
-	4.	Launch a job via Resource Manager that deprovisions the
-	infrastructure.\
+
+4.Launch a job via Resource Manager that deprovisions the infrastructure.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~5 minutes</sub>
