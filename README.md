@@ -123,15 +123,15 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b> to deploy the project.
 	<details>
-		<summary>Deploy the project</summary>
+		<summary>Provision the infrastructure</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-1.png"/>
 	</div>
 	<p></p>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/11-resourcemanager-stack-apply-2.png"/></div>
 	</details>
 	<details>
-		<summary>Resource Manager job in progress</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/12-resourcemanager-job-in-progress.png"/>
+		<summary>Resource Manager - <b>Apply</b> job in progress</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/12-resourcemanager-job-in-progress-apply.png"/>
 	</div>
 	</details>
 2. Wait for the infrastructure to finish provisioning.
@@ -281,9 +281,14 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	5.2. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Destroy</b> > <b>Destroy</b> to deploy the project.
 	<details>
-		<summary>Deploy the project</summary>
+		<summary>Deprovision the infrastructure</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/15-resourcemanager-destroy-1.png"/>
 	</div>
 	<p></p>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/16-resourcemanager-destroy-2.png"/></div>
+	</details>
+	<details>
+		<summary>Resource Manager - <b>Destroy</b> job in progress</summary>
+	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/17-resourcemanager-job-in-progress-destroy.png"/>
+	</div>
 	</details>
