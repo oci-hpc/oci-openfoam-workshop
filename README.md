@@ -34,20 +34,17 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	&nbsp;
 	<sub>~10 minutes</sub>
 	<p></p>
-	1.1. Clone this project:
+	1.1. Download the stack: 
 	<p></p>
 	<pre>
+<<<<<<< HEAD
 	git clone https://github.com/oci-hpc/oci-openfoam-workshop
+=======
+	https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Resources/Intel%20Workshop.zip
+>>>>>>> 3717932aa173b78c06760eee9593a6baf20cde03
 	</pre>
 	<p></p>
-	1.2. Remove <b>oci-openfoam-workshop/pictures</b> and <b>oci-openfoam-workshop/.git</b> to eliminate excess data from the project, so that the project does not exceed the 11 MB size limit for uploading to Resource Manager: 
-	<p></p>
-	<pre>
-	cd oci-openfoam-workshop
-	rm -r pictures
-	rm -rf .git
-	</pre>
-	1.3. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your preferred Compartment and Region:
+	1.2. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your preferred Compartment and Region:
 	<p></p>
 	<pre>
 	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
@@ -64,7 +61,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</div>
 	</details>
 	</pre>
-	1.4. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
+	1.3. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
 	<details>
 		<summary>Stack wizard - <b>Stack Information</b> section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-upload-folder.png"/>
@@ -73,7 +70,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/06-resourcemanager-stack-wizard-after-upload-zipfile.png"/>
 	</div>
 	</details>
-	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
+	1.4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 	<p></p>
 	- Select a Compartment where you have permissions to manage the resources that are mentioned in the <a href="#workshop-prerequisites">Prerequisites</a> section.
 	<p></p>
@@ -115,13 +112,13 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-variables.png"/>
 	</div>
 	</details>
-	1.6. In the <b>Review</b> section, click <b>Create</b>.
+	1.5. In the <b>Review</b> section, click <b>Create</b>.
 	<details>
 		<summary>Stack wizard - <b>Review</b> section</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-wizard-review.png"/>
 	</div>
 	</details>
-	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b> to provision the infrastructure.
+	1.6. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b> to provision the infrastructure.
 	<details>
 		<summary>Provision the infrastructure</summary>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-1.png"/>
