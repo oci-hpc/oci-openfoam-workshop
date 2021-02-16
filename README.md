@@ -148,17 +148,17 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<p></p>
 	<details>
 		<summary>Resource Manager - Logs</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/01-resource-manager-logs.png"/>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/01-resourcemanager-logs.png"/>
 	</div>
 	</details>
 	<details>
 		<summary>Resource Manager - Variables</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/02-resource-manager-variables.png"/>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/02-resourcemanager-variables.png"/>
 	</div>
 	</details>
 	<details>
 		<summary>Resource Manager - Outputs</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/03-resource-manager-outputs.png"/>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/03-resourcemanager-outputs.png"/>
 	</div>
 	</details>
 3.	Connect to your remote host via VNC.\
@@ -262,4 +262,28 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 		<summary>Motorbike model</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"/>
 	</div>
+	</details>
+5.	Launch a job via Resource Manager that deprovisions the
+	infrastructure.\
+	<sub><sup><sub>:clock3:</sub></sup></sub>
+	&nbsp;
+	<sub>~5 minutes</sub>
+	<p></p>
+	5.1. From your web browser, navigate to the Stack listings page in Resource Manager, in the same compartment where your Stack was deployed:
+	<p></p>
+	<pre>
+	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
+	</pre>
+	<details>
+		<summary>Navigate to the Stack listings page</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/14-resourcemanager-stack-listings.png"/>
+	</div>
+	</details>
+	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b> to deploy the project.
+	<details>
+		<summary>Deploy the project</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/15-resourcemanager-destroy-1.png"/>
+	</div>
+	<p></p>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/16-resourcemanager-destroy-2.png"/></div>
 	</details>
