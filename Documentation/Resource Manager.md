@@ -25,7 +25,7 @@
 	</pre>
 	<details>
 		<summary>Navigate to the <b>Create Stack</b> wizard</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/02-resourcemanager-stacks.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/02-resourcemanager-stacks.png"/>
 	</div>
 	<p></p>
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/>
