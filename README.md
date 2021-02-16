@@ -289,6 +289,6 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	</details>
 	<details>
 		<summary>Resource Manager - <b>Destroy</b> job in progress</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/17-resourcemanager-job-in-progress-destroy.png"/>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/17-resourcemanager-job-in-progress-destroy.png"/>
 	</div>
 	</details>
