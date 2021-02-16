@@ -37,7 +37,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	1.1. Clone this project:
 	<p></p>
 	<pre>
-	git clone https://github.com/scacela/oci-openfoam-workshop
+	git clone https://github.com/oci-hpc/oci-openfoam-workshop
 	</pre>
 	<p></p>
 	1.2. Remove <b>oci-openfoam-workshop/pictures</b> and <b>oci-openfoam-workshop/.git</b> to eliminate excess data from the project, so that the project does not exceed the 11 MB size limit for uploading to Resource Manager: 
