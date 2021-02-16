@@ -134,11 +134,6 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/12-resourcemanager-job-in-progress-apply.png"/>
 	</div>
 	</details>
-	<details>
-		<summary>Resource Manager - <b>Apply</b> job complete</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply.png"/>
-	</div>
-	</details>
 2. Wait for the infrastructure to finish provisioning.
 	From the left side of the page, you can monitor the logs of the Resource Manager job while the job is running, or check the variables, and after the Resource Manager job completes, you can obtain the output values.<!-- \
 	<sub><sup><sub>:clock3:</sub></sup></sub>
@@ -151,6 +146,11 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	&nbsp;
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>
 	<p></p>
+	<details>
+		<summary>Resource Manager - <b>Apply</b> job complete</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply.png"/>
+	</div>
+	</details>
 	<details>
 		<summary>Resource Manager - Logs</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/01-resourcemanager-logs.png"/>
