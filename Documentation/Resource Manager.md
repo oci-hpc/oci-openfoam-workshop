@@ -105,7 +105,7 @@
 	<sub>~45 minutes with BM.Standard2.52 shape</sub>\ -->\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
-	<sub>~60 minutes with VM.Standard2.16 shape</sub>\
+	<sub>~45 minutes with VM.Standard2.24 shape</sub>\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
 	<sub>~75 minutes with VM.Standard2.8 shape</sub>
