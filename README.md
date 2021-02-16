@@ -272,14 +272,14 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 	5.1. From your web browser, navigate to the Stack listings page in Resource Manager, in the same compartment where your Stack was deployed:
 	<p></p>
 	<pre>
-	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b> &gt click <b>Create Stack</b>
+	cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hover over <b>Resource Manager</b> &gt click <b>Stacks</b> &gt choose your Compartment from the dropdown menu under <b>List Scope</b>
 	</pre>
 	<details>
 		<summary>Navigate to the Stack listings page</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/14-resourcemanager-stack-listings.png"/>
 	</div>
 	</details>
-	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b> to deploy the project.
+	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Destroy</b> > <b>Destroy</b> to deploy the project.
 	<details>
 		<summary>Deploy the project</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/15-resourcemanager-destroy-1.png"/>
