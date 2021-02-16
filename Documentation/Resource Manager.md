@@ -28,20 +28,20 @@
 	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/02-resourcemanager-stacks.png"/>
 	</div>
 	<p></p>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/03-resourcemanager-stack-listings.png"/>
 	</div>
 	<p></p>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/04-resourcemanager-stack-wizard-before-upload.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/04-resourcemanager-stack-wizard-before-upload.png"/>
 	</div>
 	</details>
 	</pre>
 	1.4. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
 	<details>
 		<summary>Stack wizard - <b>Stack Information</b> section</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-upload-folder.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/05-resourcemanager-stack-wizard-after-upload-folder.png"/>
 	</div>
 	<p>or</p>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/06-resourcemanager-stack-wizard-after-upload-zipfile.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/06-resourcemanager-stack-wizard-after-upload-zipfile.png"/>
 	</div>
 	</details>
 	1.5. In the <b>Configure Variables</b> section, do the following for the appropriate field:
@@ -70,7 +70,7 @@
 		on your Mac OS or Linux machine and specifying (1.) the path on your local machine where the key pair will be saved, and (2.) no passphrase for the key pair.
 	<details>
 		<summary>Copy contents of new SSH public key to clipboard</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/07-ssh-key-create-and-copy.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/07-ssh-key-create-and-copy.png"/>
 	</div>
 	</details>
 	- Select a shape for your Compute Instance.
@@ -83,26 +83,26 @@
 	When you are finished configuring your variables, click <b>Next</b>.
 	<details>
 		<summary>Stack wizard - <b>Configure Variables</b> section</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-variables.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/08-resourcemanager-stack-wizard-variables.png"/>
 	</div>
 	</details>
 	1.6. In the <b>Review</b> section, click <b>Create</b>.
 	<details>
 		<summary>Stack wizard - <b>Review</b> section</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-wizard-review.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/09-resourcemanager-stack-wizard-review.png"/>
 	</div>
 	</details>
 	1.7. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Apply</b> > <b>Apply</b> to provision the infrastructure.
 	<details>
 		<summary>Provision the infrastructure</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-1.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/10-resourcemanager-stack-apply-1.png"/>
 	</div>
 	<p></p>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/11-resourcemanager-stack-apply-2.png"/></div>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/11-resourcemanager-stack-apply-2.png"/></div>
 	</details>
 	<details>
 		<summary>Resource Manager - <b>Apply</b> job in progress</summary>
-	<div style="text-align:center"><img src="./pictures/pre-resourcemanager-deployment/12-resourcemanager-job-in-progress-apply.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-resourcemanager-deployment/12-resourcemanager-job-in-progress-apply.png"/>
 	</div>
 	</details>
 2. Wait for the infrastructure to finish provisioning.
@@ -119,22 +119,22 @@
 	<p></p>
 	<details>
 		<summary>Resource Manager - Logs</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/01-resourcemanager-logs.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/01-resourcemanager-logs.png"/>
 	</div>
 	</details>
 	<details>
 		<summary>Resource Manager - Variables</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/02-resourcemanager-variables.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/02-resourcemanager-variables.png"/>
 	</div>
 	</details>
 	<details>
 		<summary>Resource Manager - <b>Apply</b> job complete</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/00-resourcemanager-job-complete-apply.png"/>
 	</div>
 	</details>
 	<details>
 		<summary>Resource Manager - Outputs</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/03-resourcemanager-outputs.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/03-resourcemanager-outputs.png"/>
 	</div>
 	</details>
 
@@ -152,23 +152,23 @@
 	</pre>
 	<details>
 		<summary>Navigate to the Stack listings page</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/14-resourcemanager-stack-listings.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/14-resourcemanager-stack-listings.png"/>
 	</div>
 	</details>
 	4.2. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Destroy</b> > <b>Destroy</b> to deprovision the infrastructure.
 	<details>
 		<summary>Deprovision the infrastructure</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/15-resourcemanager-destroy-1.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/15-resourcemanager-destroy-1.png"/>
 	</div>
 	<p></p>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/16-resourcemanager-destroy-2.png"/></div>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/16-resourcemanager-destroy-2.png"/></div>
 	</details>
 	<details>
 		<summary>Resource Manager - <b>Destroy</b> job in progress</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/17-resourcemanager-job-in-progress-destroy.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/17-resourcemanager-job-in-progress-destroy.png"/>
 	</div>
 	</details>
 	<details>
 		<summary>Resource Manager - <b>Destroy</b> job complete</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/18-resourcemanager-job-complete-destroy.png"/>
+	<div style="text-align:center"><img src=https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/18-resourcemanager-job-complete-destroy.png"/>
 	</div>
