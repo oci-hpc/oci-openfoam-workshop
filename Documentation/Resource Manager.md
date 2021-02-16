@@ -105,7 +105,7 @@
 	<sub>~45 minutes with BM.Standard2.52 shape</sub>\ -->\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
-	<sub>~45 minutes with VM.Standard2.24 shape</sub>\
+	<sub>~45 minutes with VM.Standard2.24 shape</sub>
 	<p></p>
 	<details>
 		<summary>Resource Manager - Logs</summary>
