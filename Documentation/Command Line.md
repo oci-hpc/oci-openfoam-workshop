@@ -1,10 +1,10 @@
 Command Line Interface (CLI)
 
-1. Install prerequisites for managing infrastrucutre on OCI with Terraform using the following [link](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/terraformgetstarted.htm)
+1. Install prerequisites for managing infrastrucutre on OCI with Terraform using the following [link](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/terraformgetstarted.htm).
     
-2. Open a browser and navigate to the .zip file in this [project](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Resources/Intel%20Workshop.zip)
+2. Open a browser and navigate to the .zip file in this [project](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Resources/Intel%20Workshop.zip).
     
-3. Click the download button to download the .zip file to your local machine
+3. Click the download button to download the .zip file to your local machine.
     <br>INSERT PIC OF DOWNLOAD BUTTON ON GITHUB REPO</br>
     
 4. Navigate to the directory where the .zip file was downloaded and unarchived using the following command:
