@@ -10,6 +10,11 @@
 	<pre>
 	open https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/terraformgetstarted.htm
 	</pre>
+	<details>
+		<summary>Download the project</summary>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deploument/01-download-from-github.png"/>
+	</div>
+	</details>
 	<p></p>
 2. Launch a job via CLI that provisions the infrastructure on OCI by deploying the <b>openfoam-workshop</b> project.\
 	2.1. Navigate to the source code online:
@@ -39,6 +44,11 @@
 	vi env.sh
 	</pre>
 	<p></p>
+	<details>
+		<summary>Edit env.sh</summary>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deploument/02-edit-env.png"/>
+	</div>
+	</details>
 	2.5. Export the variables with the prefix <b>TF_VAR_</b> to your CLI environment:
 	<pre>
 	source env.sh
@@ -53,6 +63,17 @@
 	<pre>
 	terraform apply # answer yes
 	</pre>
+	<p></p>
+	<details>
+		<summary>Deploy the project</summary>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deploument/03-terraform-yes-apply.png"/>
+	</div>
+	</details>
+	<details>
+		<summary>Deployment in progress</summary>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deploument/04-cli-deployment-in-pregress.png"/>
+	</div>
+	</details>
 	<p></p>
 3. [Visualize on OCI](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
 4. Launch a job via CLI that deprovisions the infrastructure.\
