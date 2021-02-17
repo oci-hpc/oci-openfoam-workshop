@@ -71,7 +71,7 @@
 	</details>
 	<details>
 		<summary>Deployment in progress</summary>
-	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/04-cli-deployment-in-pregress.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/04-cli-deployment-in-progress.png"/>
 	</div>
 	</details>
 	<p></p>
