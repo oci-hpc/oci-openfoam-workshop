@@ -62,7 +62,7 @@
 	terraform destroy # answer yes
 	</pre>
 	<p></p>
-
+<!-- 
 Command Line Interface (CLI)
 
 1. Install prerequisites for managing infrastrucutre on OCI with Terraform using the following [link](https://docs.oracle.com/en-us/iaas/Content/API/SDKDocs/terraformgetstarted.htm).
@@ -93,3 +93,4 @@ Command Line Interface (CLI)
     <br>INSERT PIC OF LOGS IN TERMINAL</br>
 
 10. [Visualize on OCI](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
+ -->
