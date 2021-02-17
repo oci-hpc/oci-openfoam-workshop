@@ -12,7 +12,7 @@
 	</pre>
 	<details>
 		<summary>Download the project</summary>
-	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/01-download-from-github.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/01-download-from-github.png" width=70%/>
 	</div>
 	</details>
 	<p></p>
@@ -46,7 +46,7 @@
 	<p></p>
 	<details>
 		<summary>Edit env.sh</summary>
-	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/02-edit-env.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/02-edit-env.png" width=40%/>
 	</div>
 	</details>
 	2.5. Export the variables with the prefix <b>TF_VAR_</b> to your CLI environment:
@@ -71,7 +71,7 @@
 	</details>
 	<details>
 		<summary>Deployment in progress</summary>
-	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/04-cli-deployment-in-progress.png"/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/04-cli-deployment-in-progress.png" width=80%/>
 	</div>
 	</details>
 	<p></p>
