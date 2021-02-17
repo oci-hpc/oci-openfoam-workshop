@@ -46,7 +46,7 @@
 	<p></p>
 	<details>
 		<summary>Edit env.sh</summary>
-	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/02-eit-env.png" width=70%/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/02-edit-env.png" width=70%/>
 	</div>
 	</details>
 	2.5. Export the variables with the prefix <b>TF_VAR_</b> to your CLI environment:
