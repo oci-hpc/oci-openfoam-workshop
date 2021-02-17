@@ -39,8 +39,11 @@ Deploying this architecture on OCI can be done in different ways:
 	<sub>~5 minutes</sub>
 	<p></p>
 	1.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host after the deployment job has finished:
+	<p></p>
 	- At the bottom of CLI output for deployment via CLI
+	<p></p>
 	- At the bottom of the Logs page for deployment via Resource Manager
+	<p></p>
 	- On the Outputs page for deployment via Resource Manager
 	<p></p>
 	<pre>
