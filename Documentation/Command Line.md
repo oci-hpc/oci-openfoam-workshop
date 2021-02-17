@@ -8,7 +8,9 @@ Command Line Interface (CLI)
     <br>INSERT PIC OF DOWNLOAD BUTTON ON GITHUB REPO</br>
     
 4. Navigate to the directory where the .zip file was downloaded and unarchived using the following command:
-    <br>cd "Intel Workshop"</br>
+    <br>
+    <copy>cd "Intel Workshop"</copy>
+    </br>
 
 5. Assign your configuration values to the TF_VAR_variables in env.sh using the following command:
     <br>vi env.sh</br>
