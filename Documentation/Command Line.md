@@ -66,7 +66,7 @@
 	<p></p>
 	<details>
 		<summary>Deploy the project</summary>
-	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/03-terraform-yes-apply.png" width=40% height=40/>
+	<div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/pre-cli-deployment/03-terraform-yes-apply.png" width=40%/>
 	</div>
 	</details>
 	<details>
