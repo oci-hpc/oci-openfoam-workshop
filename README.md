@@ -40,9 +40,9 @@ Deploying this architecture on OCI can be done in different ways:
 	<p></p>
 	1.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host after the deployment job has finished:
 	<p></p>
-	- via <b>CLI</b>: at the bottom of CLI output
+	Via <b>CLI</b>: at the bottom of CLI output
 	<p>or</p>
-	- via <b>Resource Manager</b>: at the bottom of the logs on the Logs page or on the Outputs page
+	Via <b>Resource Manager</b>: at the bottom of the logs on the Logs page or on the Outputs page
 	<p></p>
 	<pre>
 	# if the private SSH key is in default location, ~/.ssh/id_rsa
