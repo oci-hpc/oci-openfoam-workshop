@@ -32,6 +32,7 @@
 	2.2. Click <b>Download</b> to download the .zip file containing the source code to your local machine
 	<p></p>
 	2.3. If the folder containing the source code was extracted from the downloaded .zip file, you may delete the .zip file and move the folder to a preferred location on your local machine. The following example references ~/Downloads as the default download location:
+	<p></p>
 	<pre>
 	ls | grep "~/Downloads/Intel Workshop"
 	# if <b>Intel Workshop</b> shows up in the output, you may proceed with <b>rm "~/DownloadsIntel Workshop.zip"</b>
@@ -39,7 +40,7 @@
 	cd <b>DESIRED_PATH</b>/"Intel Workshop"
 	</pre>
 	<p></p>
-	2.4. Assign your configuration values to the TF_VAR_variables in env.sh:
+	2.4. Assign your configuration values to the variables with the prefix <b>TF_VAR_</b> in env.sh:
 	<pre>
 	vi env.sh
 	</pre>
