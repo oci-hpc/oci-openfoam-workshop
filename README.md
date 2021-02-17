@@ -1,4 +1,4 @@
-# oci-openfoam-workshop
+# OCI OpenFOAM Workshop
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 <div style="text-align:center">
 	<img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"
