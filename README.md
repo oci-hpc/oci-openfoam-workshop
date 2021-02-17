@@ -38,7 +38,10 @@ Deploying this architecture on OCI can be done in different ways:
 	&nbsp;
 	<sub>~5 minutes</sub>
 	<p></p>
-	1.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host from the Outputs section on the left side of the screen after the Resource Manager job has completed.
+	1.1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host after the deployment job has finished:
+	- At the bottom of CLI output for deployment via CLI
+	- At the bottom of the Logs page for deployment via Resource Manager
+	- On the Outputs page for deployment via Resource Manager
 	<p></p>
 	<pre>
 	# if the private SSH key is in default location, ~/.ssh/id_rsa
@@ -135,4 +138,3 @@ Deploying this architecture on OCI can be done in different ways:
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"/>
 	</div>
 	</details>
-
