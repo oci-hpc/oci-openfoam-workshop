@@ -224,7 +224,7 @@ Step 7: Deploy the Stack
 Step 8: Connect to the Stack
 
 
-1. Once the deployment has completed, you will see the bastion/head node IP that you can connect to
+1. Once the deployment has completed, you will see the bastion/head node public IP address that you will use to connect in future steps from the output:
 
 	$ Successfully deployed IntelWorkshop-ocihpc-test-7355
 

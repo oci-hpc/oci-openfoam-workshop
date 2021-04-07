@@ -117,10 +117,10 @@ Deploying this architecture on OCI can be done in different ways:
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/08-vnc-connection-nav-to-terminal.png"/>
 	</div>
 	</details> -->
-	2.1. Open File Viewer from your VNC Viewer window:
+	2.1. Open Files from your VNC Viewer window:
 	<p></p>
 	<pre>
-	click <b>Applications</b> &gt hover over <b>Accessories</b> &gt click <b>File Viewer</b>
+	click <b>Applications</b> &gt hover over <b>Accessories</b> &gt click <b>Files</b> &gt on the left side of the window, click <b>Home</b>
 	</pre>
 	<!-- 2.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
 	<p></p>
@@ -135,7 +135,7 @@ Deploying this architecture on OCI can be done in different ways:
 	2.2. Open ParaView:
 	<p></p>
 	<pre>
-	click <b>ParaView</b> &gt click <b>bin</b> &gt double-click <b>paraview</b>
+	double-click <b>ParaView</b> &gt double-click <b>bin</b> &gt double-click <b>paraview</b>
 	</pre>
 	<!-- 2.3. In ParaView, open the motorbike.foam file:
 	<p></p>
