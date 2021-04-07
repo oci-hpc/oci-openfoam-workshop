@@ -7,7 +7,7 @@
 	/>
 </div>
 
-### Summary
+### Overview
 Deploy a stack that hosts a compute node that is configured for GUI interaction with a motorbike model in 3D virtual space.
 
 Here is what gets installed on the compute node:

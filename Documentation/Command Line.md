@@ -1,7 +1,7 @@
 # Command Line
 ###### <p align="right">Total Time: 40 minutes (excluding Visualization)</p>
 
-### Summary
+### Overview
 In this section, you will deploy the motorbike model stack using ocihpc, an HPC stack deployment tool for CLI. Ocihpc simplifies deployments of applications in OCI.
 
 In this lab, you will download ocihpc, then generate the necessary credentials for interacting with the OCI API (i.e. API signing keys, OCI API configuration file), then download the stack project file using ocihpc, then configure the ocihpc
