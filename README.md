@@ -243,13 +243,13 @@ Deprovision the stack with the same tool you used to deploy the stack:
 <details>
 	<summary>Resource Manager</summary>
 
-If you used Resource Manager to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) in the steps for Resource Manager.
+If you used Resource Manager to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) in the Resource Manager section.
 </div>
 </details>
 
 <details>
 	<summary>Command Line</summary>
 	
-If you used Command Line to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) in the steps for Command Line.
+If you used Command Line to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) in the Command Line section.
 </div>
 </details>
