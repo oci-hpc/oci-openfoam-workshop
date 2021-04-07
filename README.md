@@ -46,23 +46,23 @@ Deploying this architecture on OCI can be done in different ways:
 	<p></p>
 	<details>
 		<summary>Unix-based OS</summary>
-	<pre>
-	ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
-	</pre>
-	<details>
-	<details>
-	<summary>Windows</summary>
-	<details>
-	<summary>Establish the port mapping</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/Windows/01-putty-ssh-port-mappings-for-vnc"/>
-	</div>
+		<pre>
+		ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
+		</pre>
 	</details>
 	<details>
-	<summary>Encrypt the SSH tunnel</summary>
-	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/Windows/02-putty-encrypted-ssh-tunnel"/>
-	</div>
+		<summary>Windows</summary>
+		<details>
+			<summary>Establish the port mapping</summary>
+			<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/Windows/01-putty-ssh-port-mappings-for-vnc"/>
+			</div>
+		</details>
+		<details>
+		<summary>Encrypt the SSH tunnel</summary>
+		<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/Windows/02-putty-encrypted-ssh-tunnel"/>
+		</div>
+		</details>
 	</details>
-	<details>
 	<p></p>
 	1.2. Execute the following command on your remote machine to launch a VNCServer instance on port 5901 on the remote host:
 	<p></p>
