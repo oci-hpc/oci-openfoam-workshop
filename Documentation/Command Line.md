@@ -1,5 +1,5 @@
 # Command Line
-###### <p align="right">Total Time: \~40 minutes (excluding Visualization)</p>
+###### <p align="right">Total Time: 40 minutes (excluding Visualization)</p>
 
 ### Summary
 In this section, you will deploy the motorbike model stack using ocihpc, an HPC stack deployment tool for CLI. Ocihpc simplifies deployments of applications in OCI.
@@ -13,7 +13,7 @@ In the first part of this lab, you will download the latest version of ocihpc. T
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~2 minutes</sub>
+<sub>2 minutes</sub>
 <p></p>
 <details>
 <summary>Linux</summary>
@@ -102,7 +102,7 @@ ocihpc.exe version
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~2 minutes</sub>
+<sub>2 minutes</sub>
 <p></p>
 
 <details>
@@ -144,7 +144,7 @@ Please refer to [this link](https://docs.joyent.com/public-cloud/getting-started
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~2 minutes</sub>
+<sub>2 minutes</sub>
 <p></p>
 
 Your API requests will be signed with your private API signing key, and Oracle will use the public API signing key to verify the authenticity of the request. 
@@ -201,7 +201,7 @@ Please refer to [this link](https://docs.oracle.com/en-us/iaas/Content/API/Conce
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>5 minutes</sub>
 <p></p>
 
 1. Now that you’ve generated a API signing key pair, you must add your public API signing key to the OCI portal under your User page. 
@@ -230,7 +230,7 @@ cat ~/.oci/oci_api_key_public.pem
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~2 minutes</sub>
+<sub>2 minutes</sub>
 <p></p>
 
 This step describes the required configuration for ocihpc, and includes optional configurations that enable you to extend CLI functionality. 
@@ -275,7 +275,7 @@ key_file=~/.oci/oci_api_key.pem
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~2 minutes</sub>
+<sub>2 minutes</sub>
 <p></p>
 
 1. Firstly, it’s important to note that you can get the list of available stacks by running the following command:
@@ -308,7 +308,7 @@ ocihpc init --stack IntelWorkshop
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~20 minutes</sub>
+<sub>20 minutes</sub>
 <p></p>
 
 
@@ -394,7 +394,7 @@ You can connect to your head node using the command: ssh opc@123.221.10.8 -i &lt
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~15 minutes</sub>
+<sub>15 minutes</sub>
 <p></p>
 
 
@@ -402,7 +402,7 @@ You can connect to your head node using the command: ssh opc@123.221.10.8 -i &lt
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>5 minutes</sub>
 <p></p>
 
 

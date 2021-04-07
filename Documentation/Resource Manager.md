@@ -1,5 +1,5 @@
 # Resource Manager
-###### <p align="right">Total Time: \~30 minutes (excluding Visualization)</p>
+###### <p align="right">Total Time: 30 minutes (excluding Visualization)</p>
 
 ### Summary
 In this section, you will deploy the motorbike model stack using Resource Manager, stack manager that is accessible as a GUI on the OCI portal.
@@ -12,7 +12,7 @@ In this lab, you will upload the stack project file to Resource Manager on OCI, 
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>5 minutes</sub>
 <p></p>
 
 1. Download the stack project:
@@ -141,7 +141,7 @@ When you are finished configuring your variables, click <b>Next</b>.
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~20 minutes</sub>
+<sub>20 minutes</sub>
 <p></p>
 
 From the left side of the page, you can monitor the logs of the Resource Manager job while the job is running, or check the variables, and after the Resource Manager job completes, you can obtain the output values.
@@ -176,7 +176,7 @@ From the left side of the page, you can monitor the logs of the Resource Manager
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~15 minutes</sub>
+<sub>15 minutes</sub>
 <p></p>
 
 
@@ -185,7 +185,7 @@ From the left side of the page, you can monitor the logs of the Resource Manager
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>5 minutes</sub>
 <p></p>
 
 1. From your web browser, navigate to the Stack listings page in Resource Manager, in the same Compartment and Region where your Stack was deployed:

@@ -1,5 +1,5 @@
 # OCI OpenFOAM Workshop
-###### <p align="right">Total Time: \~45-60 minutes</p>
+###### <p align="right">Total Time: 45-60 minutes</p>
 
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 <div style="text-align:center">
@@ -44,14 +44,14 @@ You can deploy this compute node using either of the following:
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~30 minutes</sub>
+<sub>30 minutes</sub>
 <p></p>
-\
+
 * [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) using ocihpc, an HPC stack deployment tool for the CLI.
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~40 minutes</sub>
+<sub>40 minutes</sub>
 <p></p>
 
 
@@ -60,14 +60,14 @@ You can deploy this compute node using either of the following:
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~15 minutes</sub>
+<sub>15 minutes</sub>
 <p></p>
 
 ### Step 1. Connect to your remote host via VNC.
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>5 minutes</sub>
 <p></p>
 
 1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host after the deployment job has finished:
@@ -146,7 +146,7 @@ language options &gt keyboard layout options &gt location services options &gt c
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>5 minutes</sub>
 <p></p>
 <!-- 2.1. Open Terminal from your VNC Viewer window:
 <p></p>
@@ -229,7 +229,7 @@ File > Open > choose <b>/home/opc/work/motorbike.foam</b>
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>5 minutes</sub>
 <p></p>
 
 Deprovision the stack with the same tool you used to deploy the stack:
