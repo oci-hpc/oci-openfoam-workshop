@@ -218,7 +218,7 @@ Step 7: Deploy the Stack
  
 6. The ocihpc deploy command shown above will generate a deployment name that consists of <stack_name>-<current_directory>-<random_number>. The output to this command will look something like this:
 
-	$ ocihpc deploy –-stack IntelWorkshop –-node-count 2 –-region us-phoenix-1 –-compartment-id <your_compartment_ocid>
+	$ ocihpc deploy –-stack IntelWorkshop –-compartment-id <your_compartment_ocid>
   	Deploying IntelWorkshop-ocihpc-test-7355 [0min 0sec]
  	Deploying IntelWorkshop-ocihpc-test-7355 [0min 17sec]
  	Deploying IntelWorkshop-ocihpc-test-7355 [0min 35sec]
