@@ -46,7 +46,7 @@ Deploying this architecture on OCI can be done in different ways:
 	<p></p>
 	<details>
 		<summary>Unix-based OS</summary>
-		1.1.Unix.1. Establish the port mapping using the following command:
+		<p>1.1.Unix.1. Establish the port mapping using the following command:</p>
 		<pre>
 		ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 		</pre>
