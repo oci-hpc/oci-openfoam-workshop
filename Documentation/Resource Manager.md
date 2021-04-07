@@ -12,7 +12,7 @@ In this lab, you will upload the stack project file to Resource Manager on OCI, 
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~10 minutes</sub>
+<sub>~5 minutes</sub>
 <p></p>
 
 1. Download the stack project:
@@ -141,7 +141,7 @@ When you are finished configuring your variables, click <b>Next</b>.
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~15 minutes</sub>
+<sub>~20 minutes</sub>
 <p></p>
 
 From the left side of the page, you can monitor the logs of the Resource Manager job while the job is running, or check the variables, and after the Resource Manager job completes, you can obtain the output values.
@@ -176,7 +176,7 @@ From the left side of the page, you can monitor the logs of the Resource Manager
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~20 minutes</sub>
+<sub>~15 minutes</sub>
 <p></p>
 
 

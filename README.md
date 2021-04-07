@@ -1,4 +1,6 @@
 # OCI OpenFOAM Workshop
+###### <p align="right">Total Time: \~45-60 minutes (excluding Visualization)</p>
+
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 <div style="text-align:center">
 	<img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"
@@ -35,7 +37,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 </div>
 </details>
 
-### Deployment
+### Phase 1. Deployment
 You can deploy this compute node using either of the following:
 * [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md), a stack manager that is accessible as a GUI on the OCI portal
 <p></p>
@@ -52,8 +54,12 @@ You can deploy this compute node using either of the following:
 
 
 
-# Visualize on OCI
-###### <p align="right">Total Time: 30 minutes (excluding Visualization)</p>
+### Phase 2. Visualize on OCI
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~15 minutes</sub>
+<p></p>
 
 ### Step 1. Connect to your remote host via VNC.
 <p></p>
@@ -134,7 +140,7 @@ language options &gt keyboard layout options &gt location services options &gt c
 </div>
 </details>
 
-# Step 2.	Visualize the simulation using ParaView.
+### Step 2.	Visualize the simulation using ParaView.
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
@@ -217,7 +223,12 @@ File > Open > choose <b>/home/opc/work/motorbike.foam</b>
 </div>
 </details>
 
-# Step 3. Deprovision the stack
+### Step 3. Deprovision the stack
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~5 minutes</sub>
+<p></p>
 
 Deprovision the stack with the same tool you used to deploy the stack:
 

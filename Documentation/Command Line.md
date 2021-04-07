@@ -230,7 +230,7 @@ cat ~/.oci/oci_api_key_public.pem
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>~2 minutes</sub>
 <p></p>
 
 This step describes the required configuration for ocihpc, and includes optional configurations that enable you to extend CLI functionality. 
@@ -394,7 +394,7 @@ You can connect to your head node using the command: ssh opc@123.221.10.8 -i &lt
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~20 minutes</sub>
+<sub>~15 minutes</sub>
 <p></p>
 
 
