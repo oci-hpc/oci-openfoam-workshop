@@ -335,8 +335,6 @@ Populate <b>config.json</b> according to your
 
 	c. Copy your Compartment OCID by clicking the "Copy" button
 <p></p>
-<pre>
-</pre>
 - Paste the contents of your SSH public key file:
 <pre>
 cat ~/.ssh/id_rsa.pub
