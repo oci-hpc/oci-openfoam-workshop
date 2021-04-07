@@ -313,10 +313,10 @@ ocihpc deploy –-stack IntelWorkshop –-compartment-id YOUR_COMPARTMENT_OCID
 5. The ocihpc deploy command shown above will generate a deployment name that consists of STACK_NAME-CURRENT_DIRECTORY-RANDOM_NUMBER. The output to this command will look something like this:
 
 <pre>
-	$ ocihpc deploy --stack IntelWorkshop --compartment-id YOUR_COMPARTMENT_OCID
-  	Deploying IntelWorkshop-ocihpc-test-7355 [0min 0sec]
- 	Deploying IntelWorkshop-ocihpc-test-7355 [0min 17sec]
- 	Deploying IntelWorkshop-ocihpc-test-7355 [0min 35sec]
+ocihpc deploy --stack IntelWorkshop --compartment-id YOUR_COMPARTMENT_OCID
+Deploying IntelWorkshop-ocihpc-test-7355 [0min 0sec]
+Deploying IntelWorkshop-ocihpc-test-7355 [0min 17sec]
+Deploying IntelWorkshop-ocihpc-test-7355 [0min 35sec]
 </pre>
 
 
