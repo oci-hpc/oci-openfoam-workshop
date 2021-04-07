@@ -52,14 +52,14 @@ Deploying this architecture on OCI can be done in different ways:
 	</details>
 	<details>
 		<summary>Windows</summary>
+		<p></p>
 		<details>
-			<p></p>
 			<summary>1.1.Win.1. Establish the port mapping</summary>
 			<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/windows/01-putty-ssh-port-mappings-for-vnc"/>
 			</div>
 		</details>
+		<p></p>
 		<details>
-			<p></p>
 			<summary>1.1.Win.2. Encrypt the SSH tunnel</summary>
 			<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/windows/02-putty-encrypted-ssh-tunnel"/>
 			</div>
