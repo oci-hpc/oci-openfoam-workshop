@@ -45,6 +45,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 <p></p>
 You can deploy this compute node via the listed methods. Click into one of these methods to be directed to the section where you deploy the stack. You will be directed back to this page for Phase 2 when it is time to visualize the motorbike model.
 <p></p>
+
 * [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md), a stack manager that is accessible as a GUI on the OCI portal
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
