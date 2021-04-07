@@ -358,4 +358,4 @@ Successfully deleted IntelWorkshop-ocihpc-test-7355
 
 Congratulations! You have successfully deployed the motorbike model stack using ocihpc!
 
-You can deploy this stack via Resource Manager as well by following [these steps](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md).
+Another way to deploy this stack is via Resource Manager. You can do this by following [these steps](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md).
