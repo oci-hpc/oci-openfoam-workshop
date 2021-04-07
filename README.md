@@ -43,13 +43,14 @@ You can deploy this compute node using either of the following:
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~30 minutes</sub>
+<sub>\~30 minutes</sub>
 <p></p>
+
 * [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) using ocihpc, an HPC stack deployment tool for the CLI.
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~40 minutes</sub>
+<sub>\~40 minutes</sub>
 <p></p>
 
 
