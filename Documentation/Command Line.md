@@ -325,6 +325,31 @@ ocihpc init --stack IntelWorkshop
     }
 </pre>
 
+Populate <b>config.json</b> according to your 
+<p></p>
+- Get the OCID of the Compartment where you have permissions to manage the resources that are mentioned in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md). You can locate your Compartment OCID by following these steps:
+
+	a. Log into your OCI tenancy using the credentials provided to you
+
+	b. Click the hamburger menu in the top right-hand corner, and scroll down to Identity > Compartments
+
+	c. Copy your Compartment OCID by clicking the "Copy" button
+<p></p>
+<pre>
+</pre>
+- Paste the contents of your SSH public key file:
+<pre>
+cat ~/.ssh/id_rsa.pub
+</pre>
+- Select a shape for your Compute Instance.
+<p></p>
+The name of the shape indicates the number of cores that are available to that shape, e.g. the VM.Standard2.<b>8</b> shape has <b>8</b> cores available.
+<p></p>
+- Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
+<p></p>
+Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md).
+When you are finished configuring your variables, click <b>Next</b>.
+
 
 2. To modify your config.json file, navigate to your newly created directory, ocihpc-test, and open the config.json file using your preferred text editor. Note that this is not the same config file that we configured in Step 5. 
 
@@ -333,16 +358,8 @@ ocihpc init --stack IntelWorkshop
 <pre>
 ocihpc deploy –-stack IntelWorkshop –-compartment-id YOUR_COMPARTMENT_OCID
 </pre>
-	
-4. You can locate your Compartment OCID by following these steps:
-
-	a. Log into your OCI tenancy using the credentials provided to you
-
-	b. Click the hamburger menu in the top right-hand corner, and scroll down to Identity > Compartments
-
- 	c. Copy your Compartment OCID by clicking the "Copy" button shown below
  
-5. The ocihpc deploy command shown above will generate a deployment name that consists of STACK_NAME-CURRENT_DIRECTORY-RANDOM_NUMBER. The output to this command will look something like this:
+4. The ocihpc deploy command shown above will generate a deployment name that consists of STACK_NAME-CURRENT_DIRECTORY-RANDOM_NUMBER. The output to this command will look something like this:
 
 <pre>
 ocihpc deploy --stack IntelWorkshop --compartment-id YOUR_COMPARTMENT_OCID
