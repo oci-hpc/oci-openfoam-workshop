@@ -28,8 +28,16 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 
 ### Deployment
 Deploying this architecture on OCI can be done in different ways:
-* The [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) lets you deploy the infrastructure from the console. Only relevant variables are shown but others can be changed in the zip file. 
-* The [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) lets you deploy the stack from the command line. 
+* The [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) lets you deploy the infrastructure from the console. Only relevant variables are shown but others can be changed in the zip file.\
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~30 minutes</sub>
+<p></p>
+* The [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) lets you deploy the stack from the command line.\
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~30 minutes</sub>
+<p></p>
 
 ### Visualize on OCI
 
