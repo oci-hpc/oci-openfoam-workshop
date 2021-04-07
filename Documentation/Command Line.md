@@ -327,6 +327,7 @@ ocihpc init --stack IntelWorkshop
 
 Populate <b>config.json</b> according to your 
 <p></p>
+
 - Get the OCID of the Compartment where you have permissions to manage the resources that are mentioned in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md). You can locate your Compartment OCID by following these steps:
 
 	a. Log into your OCI tenancy using the credentials provided to you
@@ -335,19 +336,23 @@ Populate <b>config.json</b> according to your
 
 	c. Copy your Compartment OCID by clicking the "Copy" button
 <p></p>
-- Paste the contents of your SSH public key file:
+
+- Use the contents of your SSH public key file:
+
 <pre>
 cat ~/.ssh/id_rsa.pub
 </pre>
+
 - Select a shape for your Compute Instance.
+
 <p></p>
 The name of the shape indicates the number of cores that are available to that shape, e.g. the VM.Standard2.<b>8</b> shape has <b>8</b> cores available.
 <p></p>
+
 - Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
 <p></p>
-Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md).
-When you are finished configuring your variables, click <b>Next</b>.
 
+Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md).
 
 2. To modify your config.json file, navigate to your newly created directory, ocihpc-test, and open the config.json file using your preferred text editor. Note that this is not the same config file that we configured in Step 5. 
 
