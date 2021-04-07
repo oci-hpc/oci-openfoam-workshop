@@ -37,7 +37,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 </div>
 </details>
 
-### Phase 1. Deployment
+## Phase 1. Deployment
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
@@ -62,7 +62,7 @@ You can deploy this compute node via Resource Manager or Command Line. Click int
 
 
 
-### Phase 2. Visualize on OCI
+## Phase 2. Visualize on OCI
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
