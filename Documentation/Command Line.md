@@ -373,7 +373,7 @@ Deploying IntelWorkshop-ocihpc-test-7355 [0min 35sec]
 
 
 
-### Step 8: Find compute node public IP address
+### Step 8: Find the public IP address of the compute node
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
