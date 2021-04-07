@@ -12,7 +12,7 @@ In the first part of this lab, you will download the latest version of ocihpc. T
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
-<sub>~5 minutes</sub>
+<sub>~2 minutes</sub>
 <p></p>
 <details>
 <summary>Linux</summary>
@@ -98,6 +98,11 @@ ocihpc.exe version
 </details>
 
 ### Step 2: Create an SSH key pair
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~2 minutes</sub>
+<p></p>
 
 <details>
 <summary>Unix-based OS</summary>
