@@ -44,6 +44,7 @@ cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hov
 </details>
 
 </pre>
+
 3. In the <b>Stack Information</b> section of the <b>Create Stack</b> wizard, click <b>Browse</b> under <b>Stack Configuration</b> and choose the <b>openfoam-workshop</b> folder (or .zip file), then click <b>Next</b>.
 <details>
 	<summary>Stack wizard - <b>Stack Information</b> section</summary>
@@ -222,6 +223,6 @@ cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hov
 
 <details>
 	<summary>Resource Manager - <b>Destroy</b> job complete</summary>
-	
+
 <div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/18-resourcemanager-job-complete-destroy.png"/>
 </div>
