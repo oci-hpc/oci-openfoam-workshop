@@ -95,7 +95,7 @@ You can deploy this compute node via Resource Manager or Command Line. Click int
 	<p></p>
 </details>
 
-2. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can f
+2. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host.
 <details>
 	<summary>Unix-based OS</summary>
 	<p></p>
