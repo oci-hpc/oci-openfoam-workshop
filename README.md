@@ -15,6 +15,11 @@ Here is what gets installed on the compute node:
 * a copy of a motorbike model that was assembled using OpenFOAM, a computational fluid dynamics software.
 * ParaView for provising GUI access to the motorbike model
 
+Lab Overview:
+[Phase 1](#phase-1): Deploy the stack using Resource Manager or Command Line
+[Phase 2](#phase-1): Visualize the motorbike model on the compute node
+[Phase 3](#phase-1): Deprovision the stack using Resource Manager or Command Line
+
 
 ### Workshop Prerequisites
 - Access to an OCI Tenancy (account)
