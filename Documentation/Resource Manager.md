@@ -62,7 +62,7 @@ cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hov
 4. In the <b>Configure Variables</b> section, do the following for the appropriate field:
 <p></p>
 
-- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](../README.md#workshop-prerequisites) section.
+- Select a Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](../README.md#prerequisites) section.
 <p></p>
 
 - Paste the contents of your SSH public key file.
@@ -101,7 +101,7 @@ The name of the shape indicates the number of cores that are available to that s
 - Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
 <p></p>
 
-Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](../README.md#workshop-prerequisites) section.
+Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](../README.md#prerequisites) section.
 When you are finished configuring your variables, click <b>Next</b>.
 
 <details>

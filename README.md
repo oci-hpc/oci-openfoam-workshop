@@ -22,10 +22,9 @@ Here is what gets installed on the compute node:
 - [Phase 3](#phase-3-deprovision-the-stack): Deprovision the stack using Resource Manager or Command Line
 
 
-### Workshop Prerequisites
+### Prerequisites
 - Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.
-- An SSH key pair on your local machine.
 - Permissions to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance. (See [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html))
 - Sufficient availability to provision 1 x each of the aformentioned resources. You can check resource availability:
 <pre>
