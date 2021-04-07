@@ -100,11 +100,9 @@ Step 3: Generating an API Signing Key
 3. Generate the private key using the following command.
 
 	$ openssl genrsa -out ~/.oci/oci_api_key.pem 2048
-\
 4. Ensure that only you can read the private key file by running the following command:
 
 	$ chmod go-rwx ~/.oci/oci_api_key.pem
-\
 5. Generate the public key using the following command:
 
 	$ openssl rsa -pubout -in ~/.oci/oci_api_key.pem -out ~/.oci/oci_api_key_public.pem
