@@ -328,7 +328,7 @@ ocihpc init --stack IntelWorkshop
 Learn about the each deployment parameter to guide how you choose to populate config.json with your own deployment parameters.
 <p></p>
 
-- Get the OCID of the Compartment where you have permissions to manage the resources that are mentioned in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md). You can locate your Compartment OCID by following these steps:
+- Get the OCID of the Compartment where you have permissions to manage the resources that are mentioned in the [Prerequisites](../README.md#workshop-prerequisites) section. You can locate your Compartment OCID by following these steps:
 
 	a. Log into your OCI tenancy using the credentials provided to you
 
@@ -352,7 +352,7 @@ The name of the shape indicates the number of cores that are available to that s
 - Select the number representing the Availability Domain (AD) in which the infrastructure will be provisioned.
 <p></p>
 
-Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md).
+Note that the availability of cores the shape that you use will vary between Availability Domains. The way to check resource availability is described in the [Prerequisites](../README.md#workshop-prerequisites) section.
 
 2. To modify your config.json file, navigate to your newly created directory, ocihpc-test, and open the config.json file using your preferred text editor. Note that this is not the same config file that we configured in Step 5. 
 
