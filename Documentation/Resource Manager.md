@@ -7,7 +7,7 @@
 	<p></p>
 	1.1. Download the stack project:
 	<p></p>
-	<p href="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Resources/IntelWorkshop.zip">Stack project</p>
+	<a href="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Resources/IntelWorkshop.zip">Stack project</a>
 	1.2. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your preferred Compartment and Region:
 	<p></p>
 	<pre>
