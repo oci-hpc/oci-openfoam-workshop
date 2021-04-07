@@ -312,7 +312,7 @@ ocihpc init --stack IntelWorkshop
 <p></p>
 
 
-1. Notice that an ocihpc stack configuration file named "config.json" was generated when you initialized the IntelWorkshop stack. This is a JSON file. Open the file for editing, e.g. with "nano config.json", and populate the values with your own stack deployment parameters. The contents will appear similar to the following code snippet.
+1. Notice that an ocihpc stack configuration file named "config.json" was generated when you initialized the IntelWorkshop stack. This is a JSON file. Open the file for editing, e.g. with "nano config.json", and populate the values with your own deployment parameters. The contents will appear similar to the following code snippet.
 
 <pre>
     {
@@ -325,7 +325,7 @@ ocihpc init --stack IntelWorkshop
     }
 </pre>
 
-Populate <b>config.json</b> according to your 
+Learn about the each deployment parameter to guide how you choose to populate config.json with your own deployment parameters.
 <p></p>
 
 - Get the OCID of the Compartment where you have permissions to manage the resources that are mentioned in the Prerequisites section on the [main Readme](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md). You can locate your Compartment OCID by following these steps:
