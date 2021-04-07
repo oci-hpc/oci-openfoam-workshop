@@ -231,7 +231,7 @@ File > Open > choose <b>/home/opc/work/motorbike.foam</b>
 </div>
 </details>
 
-### Step 3. Deprovision the stack
+## Phase 3. Deprovision the stack
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;

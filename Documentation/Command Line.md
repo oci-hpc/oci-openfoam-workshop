@@ -398,7 +398,8 @@ You can connect to your head node using the command: ssh opc@123.221.10.8 -i &lt
 <p></p>
 
 
-### Step 10: Delete the Stack
+
+### Step 10: Deprovision the Stack
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
