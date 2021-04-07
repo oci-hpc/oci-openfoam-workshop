@@ -1,5 +1,5 @@
 # Resource Manager
-###### <p align="right">Total Time: 30 minutes (excluding Visualization)</p>
+###### <p align="right">Total Time: \~30 minutes (excluding Visualization)</p>
 
 ### Summary
 In this section, you will deploy the motorbike model stack using Resource Manager, stack manager that is accessible as a GUI on the OCI portal.

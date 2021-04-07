@@ -1,5 +1,5 @@
 # Command Line
-###### <p align="right">Total Time: 40 minutes (excluding Visualization)</p>
+###### <p align="right">Total Time: \~40 minutes (excluding Visualization)</p>
 
 ### Summary
 In this section, you will deploy the motorbike model stack using ocihpc, an HPC stack deployment tool for CLI. Ocihpc simplifies deployments of applications in OCI.
