@@ -47,7 +47,7 @@ Deploying this architecture on OCI can be done in different ways:
 	<details>
 		<summary>Unix-based OS</summary>
 		<pre>
-ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
+		ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
 		</pre>
 	</details>
 	<details>
