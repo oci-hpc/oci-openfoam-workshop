@@ -9,13 +9,14 @@ In the first part of this lab, you will download the latest version of ocihpc. T
 
 
 ### Step 1. Install ocihpc
+<p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
 <sub>~5 minutes</sub>
-<p></p>
+
 <details>
 <summary>Linux</summary>
-<p></p>
+
 1. Download the latest release with the following command and extract it:
 
 <pre>
