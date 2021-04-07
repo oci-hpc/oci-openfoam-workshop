@@ -208,8 +208,11 @@ Step 7: Deploy the Stack
 	$ ocihpc deploy –-stack IntelWorkshop –-compartment-id <your_compartment_ocid>
 	
 4. You can locate your Compartment OCID by following these steps:
+
 	a. Log into your OCI tenancy using the credentials provided to you
-	b. Click the hamburger menu in the top right-hand corner, and scroll down to IdentityCompartments
+
+	b. Click the hamburger menu in the top right-hand corner, and scroll down to Identity > Compartments
+	
  	c. Copy your Compartment OCID by clicking the "Copy" button shown below
  
 5. The ocihpc deploy command shown above will generate a deployment name that consists of <stack_name>-<current_directory>-<random_number>. The output to this command will look something like this:
