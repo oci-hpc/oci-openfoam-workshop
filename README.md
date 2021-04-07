@@ -16,9 +16,10 @@ Here is what gets installed on the compute node:
 * ParaView for provising GUI access to the motorbike model
 
 Lab Overview:
-[Phase 1](#phase-1): Deploy the stack using Resource Manager or Command Line
-[Phase 2](#phase-1): Visualize the motorbike model on the compute node
-[Phase 3](#phase-1): Deprovision the stack using Resource Manager or Command Line
+
+- [Phase 1](#phase-1-deployment): Deploy the stack using Resource Manager or Command Line
+- [Phase 2](#phase-2-visualize-on-oci): Visualize the motorbike model on the compute node
+- [Phase 3](#phase-3-deprovision-the-stack): Deprovision the stack using Resource Manager or Command Line
 
 
 ### Workshop Prerequisites
