@@ -249,13 +249,13 @@ Deprovision the stack with the same tool you used to deploy the stack:
 <details>
 	<summary>Resource Manager</summary>
 
-If you used Resource Manager to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) in the Resource Manager section.
+If you used Resource Manager to deploy the stack, continue to the [final step](./Documentation/Resource%20Manager.md#step-4-launch-a-job-via-resource-manager-that-deprovisions-the-intelworkshop-stack) in the Resource Manager section.
 </div>
 </details>
 
 <details>
 	<summary>Command Line</summary>
 	
-If you used Command Line to deploy the stack, continue to the [final step](./Documentation/Resource%20Manager.md#step-4-launch-a-job-via-resource-manager-that-deprovisions-the-intelworkshop-stack) in the Command Line section.
+If you used Command Line to deploy the stack, continue to the [final step](./Documentation/Command%20Line.md#step-10-deprovision-the-stack) in the Command Line section.
 </div>
 </details>
