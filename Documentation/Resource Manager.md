@@ -2,7 +2,7 @@
 ###### <p align="right">Total Time: 30 minutes (excluding Visualization)</p>
 
 ### Summary
-In these steps, you will deploy the motorbike model stack using Resource Manager, stack manager that is accessible as a GUI on the OCI portal.
+In this section, you will deploy the motorbike model stack using Resource Manager, stack manager that is accessible as a GUI on the OCI portal.
 
 In this lab, you will upload the stack project file to Resource Manager on OCI, and configure the variables in the GUI according to your deployment parameters. Then you will deploy the stack via Resource Manager, visualize the motorbike model in 3D virtual space, and finally deprovision the stack via Resource Manager.
 
