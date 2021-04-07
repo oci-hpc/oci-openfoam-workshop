@@ -8,7 +8,7 @@
 	1.1. Download the stack:
 	<p></p>
 	<pre>
-	https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Resources/Intel%20Workshop.zip
+	1. [Download the stack project](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Resources/Intel%20Workshop.zip) to your local machine.
 	</pre>
 	<p></p>
 	1.2. Open a web browser and navigate to the <b>Create Stack</b> wizard in Resource Manager, in your preferred Compartment and Region:
