@@ -1,5 +1,5 @@
 # Command Line
-###### <p align="right">Total Time: 30 minutes</p>
+###### <p align="right">Total Time: 40 minutes</p>
 
 ### Summary
 In these steps, you will deploy an HPC cluster network using the Oracle Cloud Infrastructure HPC deployment tool for the command line, ocihpc. Ocihpc simplifies deployments of applications in OCI.
@@ -140,6 +140,11 @@ Please refer to [this link](https://docs.joyent.com/public-cloud/getting-started
 
 
 ### Step 3: Generate an OCI API signing key pair
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~2 minutes</sub>
+<p></p>
 
 Your API requests will be signed with your private API signing key, and Oracle will use the public API signing key to verify the authenticity of the request. 
 
@@ -192,7 +197,11 @@ Please refer to [this link](https://docs.oracle.com/en-us/iaas/Content/API/Conce
 
 
 ### Step 4: Register your Public API signing key to your OCI User
-
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~5 minutes</sub>
+<p></p>
 
 1. Now that you’ve generated a API signing key pair, you must add your public API signing key to the OCI portal under your User page. 
 
@@ -217,7 +226,11 @@ cat ~/.oci/oci_api_key_public.pem
 
 
 ### Step 5: Create your OCI API configuration file
-
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~5 minutes</sub>
+<p></p>
 
 This step describes the required configuration for ocihpc, and includes optional configurations that enable you to extend CLI functionality. 
 
@@ -258,7 +271,11 @@ key_file=~/.oci/oci_api_key.pem
 
 
 ### Step 6: Initialize the IntelWorkshop stack using ocihpc
-
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~2 minutes</sub>
+<p></p>
 
 1. Firstly, it’s important to note that you can get the list of available stacks by running the following command:
 
@@ -287,6 +304,11 @@ ocihpc init --stack IntelWorkshop
 
 
 ### Step 7: Deploy the Stack
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~20 minutes</sub>
+<p></p>
 
 
 1. Notice that an ocihpc stack configuration file named "config.json" was generated when you initialized the IntelWorkshop stack. This is a JSON file. Open the file for editing, e.g. with "nano config.json", and populate the values with your own stack deployment parameters. The contents will appear similar to the following code snippet.
@@ -330,8 +352,12 @@ Deploying IntelWorkshop-ocihpc-test-7355 [0min 35sec]
 
 
 
-### Step 8: Access the Compute Node
-
+### Step 8: Find compute node public IP address
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~1 minute</sub>
+<p></p>
 
 1. Once the deployment has completed, the public IP address of the compute node will be printed as a CLI console log. You will use this public IP address to connect to the compute node in the in the steps for Visualizing the Motorbike Model on OCI.
 
@@ -344,9 +370,19 @@ You can connect to your head node using the command: ssh opc@123.221.10.8 -i &lt
 
 
 ### Step 9: [Visualize the Motorbike Model on OCI](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~20 minutes</sub>
+<p></p>
 
 
 ### Step 10: Delete the Stack
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~5 minutes</sub>
+<p></p>
 
 
 1. When you are done with your deployment, you can delete the stack by changing to the stack directory and executing the following command:
