@@ -209,7 +209,7 @@ Step 7: Deploy the Stack
 
 4. After you change the values in the config.json file, you can deploy the stack using the following command:
 	<pre>
-	ocihpc deploy –-stack IntelWorkshop –-compartment-id <your_compartment_ocid>
+	ocihpc deploy –-stack IntelWorkshop –-compartment-id &ltyour_compartment_ocid&gt
 	</pre>
 5. You can locate your Compartment OCID by following these steps:
 	a. Log into your OCI tenancy using the credentials provided to you
