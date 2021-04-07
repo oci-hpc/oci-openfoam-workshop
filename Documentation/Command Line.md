@@ -208,7 +208,9 @@ Step 7: Deploy the Stack
 3. To modify your config.json file, navigate to your newly created directory, ocihpc-test, and open the config.json file using your preferred text editor. Note that this is not the same config file that we configured in Step 5. 
 
 4. After you change the values in the config.json file, you can deploy the stack using the following command:
+
 	$ ocihpc deploy –-stack IntelWorkshop –-compartment-id <your_compartment_ocid>
+	
 5. You can locate your Compartment OCID by following these steps:
 	a. Log into your OCI tenancy using the credentials provided to you
 	b. Click the hamburger menu in the top right-hand corner, and scroll down to IdentityCompartments
