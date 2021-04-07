@@ -4,7 +4,8 @@
 ### Summary
 In these steps, you will deploy the motorbike model stack using ocihpc, an HPC stack deployment tool for CLI. Ocihpc simplifies deployments of applications in OCI.
 
-In the first part of this lab, you will download the latest version of ocihpc. Then you will then generate the necessary ssh keys, API signing keys, and configuration file to enable proper API access to OCI. Afterwards, you will download the IntelWorkshop stack using ocihpc, and set up the configuration file specific to the IntelWorkshop stack. Lastly, using a single ocihpc command, you will deploy a node that is configured for GUI interaction with a motorbike model in 3D virtual space.
+In this lab, you will download ocihpc, then generate the necessary credentials for interacting with the OCI API (i.e. API signing keys, OCI API configuration file), then download the stack project file using ocihpc, then configure the ocihpc
+In the first part of this lab, you will download the latest version of ocihpc. Then you will then generate the necessary ssh keys, API signing keys, and configuration file to enable proper API access to OCI. Afterward, you will download the IntelWorkshop stack using ocihpc, and set up the ocihpc stack configuration file according to your deployment parameters. Then you will deploy the stack via ocihpc, visualize the motorbike model in 3D virtual space, and finally deprovision the stack via ocihpc.
 
 
 

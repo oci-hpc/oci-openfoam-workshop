@@ -4,7 +4,7 @@
 ### Summary
 In these steps, you will deploy the motorbike model stack using Resource Manager, stack manager that is accessible as a GUI on the OCI portal.
 
-In the first part of this lab, you will download the latest version of ocihpc. Then you will then generate the necessary ssh keys, API signing keys, and configuration file to enable proper API access to OCI. Afterwards, you will download the IntelWorkshop stack using ocihpc, and set up the configuration file specific to the IntelWorkshop stack. Lastly, using a single ocihpc command, you will deploy a node that is configured for GUI interaction with a motorbike model in 3D virtual space.
+In this lab, you will upload the stack project file to Resource Manager on OCI, and configure the variables in the GUI according to your deployment parameters. Then you will deploy the stack via Resource Manager, visualize the motorbike model in 3D virtual space, and finally deprovision the stack via Resource Manager.
 
 
 
