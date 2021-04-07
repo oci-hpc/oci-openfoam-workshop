@@ -5,6 +5,14 @@
 	/>
 </div>
 
+### Summary
+Deploy a compute node using either Resource Manager (a stack manager on OCI with GUI) or ocihpc (an HPC stack deployment tool for CLI) deployment toolthat is configured for GUI interaction with a motorbike model in 3D virtual space.
+
+Here is what gets installed on the compute node:
+* VNCServer for providing GUI access to the remote machine
+* a copy of a motorbike model that was assembled using OpenGOAM, a computational fluid dynamics software.
+* ParaView for provising GUI access to the motorbike model
+
 ### Workshop Prerequisites
 - Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.

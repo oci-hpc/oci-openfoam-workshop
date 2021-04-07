@@ -1,5 +1,5 @@
 # Resource Manager
-###### <p align="right">Total Time: 1-2 hours</p>
+###### <p align="right">Total Time: 30 minutes</p>
 1. Launch a job via Resource Manager that provisions the infrastructure on OCI by deploying the <b>openfoam-workshop</b> project.\
 	<sub><sup><sub>:clock3:</sub></sup></sub>
 	&nbsp;
