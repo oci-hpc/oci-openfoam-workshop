@@ -90,7 +90,7 @@ Deploying this architecture on OCI can be done in different ways:
 	&nbsp;
 	<sub>~5 minutes</sub>
 	<p></p>
-	2.1. Open Terminal from your VNC Viewer window:
+	<!-- 2.1. Open Terminal from your VNC Viewer window:
 	<p></p>
 	<pre>
 	click <b>Applications</b> &gt hover over <b>System Utilities</b> &gt click <b>Terminal</b>
@@ -99,8 +99,13 @@ Deploying this architecture on OCI can be done in different ways:
 		<summary>Navigate to Terminal on the remote host</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/08-vnc-connection-nav-to-terminal.png"/>
 	</div>
-	</details>
-	2.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
+	</details> -->
+	2.1. Open File Viewer from your VNC Viewer window:
+	<p></p>
+	<pre>
+	click <b>Applications</b> &gt hover over <b>Accessories</b> &gt click <b>File Viewer</b>
+	</pre>
+	<!-- 2.2. Open Paraview by executing the following command from the Terminal instance in your VNC Viewer window:
 	<p></p>
 	<pre>
 	paraview
@@ -109,11 +114,26 @@ Deploying this architecture on OCI can be done in different ways:
 		<summary>Run ParaView on the remote host</summary>
 	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/09-vnc-connection-run-paraview.png"/>
 	</div>
-	</details>
-	2.3. In ParaView, open the motorbike.foam file:
+	</details> -->
+	2.2. Open ParaView:
+	<p></p>
+	<pre>
+	click <b>ParaView</b> &gt click <b>bin</b> &gt double-click <b>paraview</b>
+	</pre>
+	<!-- 2.3. In ParaView, open the motorbike.foam file:
 	<p></p>
 	<pre>
 	File > Open > choose <b>/mnt/volb/work/motorbike.foam</b>
+	</pre>
+	<details>
+		<summary>Open motorbike.foam in ParaView</summary>
+	<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/10-paraview-open-motorbike-file.png"/>
+	</div>
+	</details> -->
+	2.3. In ParaView, open the motorbike.foam file:
+	<p></p>
+	<pre>
+	File > Open > choose <b>/home/opc/work/motorbike.foam</b>
 	</pre>
 	<details>
 		<summary>Open motorbike.foam in ParaView</summary>
