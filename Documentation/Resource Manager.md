@@ -175,7 +175,7 @@ From the left side of the page, you can monitor the logs of the Resource Manager
 
 
 
-### Step 3: [Visualize the Motorbike Model on OCI](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/README.md)
+### Step 3: [Visualize the Motorbike Model on OCI](../README.md#phase-2-visualize-on-oci)
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
