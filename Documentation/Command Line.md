@@ -356,4 +356,6 @@ Deleting IntelWorkshop-ocihpc-test-7355 [0min 35sec]
 Successfully deleted IntelWorkshop-ocihpc-test-7355
 </pre>
 
-Congratulations! You have successfully deployed your first High Performance Compute (HPC) compute node using ocihpc!
+Congratulations! You have successfully deployed the motorbike model stack using ocihpc!
+
+You can deploy this stack via [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) as well.
