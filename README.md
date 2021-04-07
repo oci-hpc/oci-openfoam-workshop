@@ -38,6 +38,11 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 </details>
 
 ### Phase 1. Deployment
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>30 or 40 minutes</sub>
+<p></p>
 You can deploy this compute node via either method:
 
 * [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md), a stack manager that is accessible as a GUI on the OCI portal
