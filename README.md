@@ -1,5 +1,5 @@
 # OCI OpenFOAM Workshop
-###### <p align="right">Total Time: \~45-60 minutes (excluding Visualization)</p>
+###### <p align="right">Total Time: \~45-60 minutes</p>
 
 ### Motorbike Simulation on Oracle Cloud Infrastructure (OCI)
 <div style="text-align:center">
