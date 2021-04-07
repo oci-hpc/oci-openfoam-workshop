@@ -9,7 +9,7 @@
 - Access to an OCI Tenancy (account)
 - [VNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) installed on your local machine as a client application for VNCServer.
 - An SSH key pair on your local machine.
-- Permissions to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance, Block Volume. (See [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html))
+- Permissions to manage the following resources in some Compartment: Virtual Cloud Network, Subnet, Route Table, Security List, Internet Gateway, Compute Instance. (See [Identity and Access Management Policies](https://docs.oracle.com/en-us/iaas/data-safe/doc/iam-policies.html))
 - Sufficient availability to provision 1 x each of the aformentioned resources. You can check resource availability:
 <pre>
 Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
@@ -29,7 +29,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 ### Deployment
 Deploying this architecture on OCI can be done in different ways:
 * The [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) lets you deploy the infrastructure from the console. Only relevant variables are shown but others can be changed in the zip file. 
-* The [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.mde) lets you deploy the stack from the command line. 
+* The [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) lets you deploy the stack from the command line. 
 
 ### Visualize on OCI
 
