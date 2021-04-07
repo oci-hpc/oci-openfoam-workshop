@@ -2,7 +2,7 @@
 ###### <p align="right">Total Time: 40 minutes</p>
 
 ### Summary
-In these steps, you will deploy an HPC cluster network using the Oracle Cloud Infrastructure HPC deployment tool for the command line, ocihpc. Ocihpc simplifies deployments of applications in OCI.
+In these steps, you will deploy the motorbike model stack using ocihpc, an HPC stack deployment tool for CLI. Ocihpc simplifies deployments of applications in OCI.
 
 In the first part of this lab, you will download the latest version of ocihpc. Then you will then generate the necessary ssh keys, API signing keys, and configuration file to enable proper API access to OCI. Afterwards, you will download the IntelWorkshop stack using ocihpc, and set up the configuration file specific to the IntelWorkshop stack. Lastly, using a single ocihpc command, you will deploy a node that is configured for GUI interaction with a motorbike model in 3D virtual space.
 
