@@ -194,7 +194,7 @@ Step 7: Deploy the Stack
 	$ nano config.json
 
 2. Change the values config.json. The variables depend on the stack that you are deploying. You can paste the following JSON example into your config.json and adjust it according to your desired deployment parameters.
-
+<pre>
     {
         "tenancy_ocid": "YOUR_TENANCY_OCID",
         "region": "us-phoenix-1",
@@ -203,7 +203,7 @@ Step 7: Deploy the Stack
         "compute_shape":"VM.Standard2.1",
         "ad_number":"1"
     }
-
+</pre>
 
 3. To modify your config.json file, navigate to your newly created directory, ocihpc-test, and open the config.json file using your preferred text editor. Note that this is not the same config file that we configured in Step 5. 
 
