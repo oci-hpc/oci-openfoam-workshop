@@ -216,3 +216,21 @@ File > Open > choose <b>/home/opc/work/motorbike.foam</b>
 <div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/13-paraview-motorbike.png"/>
 </div>
 </details>
+
+# Step 3. Deprovision the stack
+
+Deprovision the stack with the same tool you used to deploy the stack:
+
+<details>
+	<summary>Resource Manager</summary>
+
+If you used Resource Manager to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md) in the steps for Resource Manager.
+</div>
+</details>
+
+<details>
+	<summary>Command Line</summary>
+	
+If you used Command Line to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) in the steps for Command Line.
+</div>
+</details>
