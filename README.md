@@ -32,9 +32,7 @@ Deploying this architecture on OCI can be done in different ways:
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
 <sub>~30 minutes</sub>
-<p></p>
-* The [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) lets you deploy the stack from the command line.
-\
+* The [Command Line](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) lets you deploy the stack from the command line.\
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
 <sub>~30 minutes</sub>
