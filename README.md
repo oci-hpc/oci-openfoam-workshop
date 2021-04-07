@@ -81,16 +81,25 @@ You can deploy this compute node via Resource Manager or Command Line. Click int
 <sub>5 minutes</sub>
 <p></p>
 
-1. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can find the public IP address of your remote host after the deployment job has finished:
-<p></p>
-Via <b>CLI</b>: at the bottom of CLI output
-<p>or</p>
-Via <b>Resource Manager</b>: at the bottom of the logs on the Logs page or on the Outputs page
-<p></p>
+1. Find the public IP address of your remote host after the deployment job has finished:
+<details>
+	<summary>Resource Manager</summary>
+	<p></p>
+	If you deployed your stack via Resource Manager, find the public IP address of the compute node at the bottom of the CLI console logs.
+	<p></p>
+</details>
+<details>
+	<summary>Command Line</summary>
+	<p></p>
+	If you deployed your stack via Command Line, find the public IP address of the compute node at the bottom of the console logs on the <b>Logs</b> page, or on the <b>Outputs</b> page.
+	<p></p>
+</details>
+
+2. Establish a port mapping from port 5901 on your local machine to port 5901 on the remote host. You can f
 <details>
 	<summary>Unix-based OS</summary>
 	<p></p>
-	1.1.Unix.1. Establish the port mapping using the following command:
+	Establish the port mapping using the following command:
 	<p></p>
 	<pre>
 	ssh -i <b>SSH_PRIVATE_KEY_PATH</b> -L 5901:localhost:5901 opc@<b>REMOTE_HOST_IP_ADDRESS</b>
@@ -100,20 +109,20 @@ Via <b>Resource Manager</b>: at the bottom of the logs on the Logs page or on th
 	<summary>Windows</summary>
 	<p></p>
 	<details>
-		<summary>1.1.Win.1. Establish the port mapping</summary>
+		<summary>a. Establish the port mapping</summary>
 		<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/windows/01-putty-ssh-port-mappings-for-vnc"/>
 		</div>
 	</details>
 	<p></p>
 	<details>
-		<summary>1.1.Win.2. Encrypt the SSH tunnel</summary>
+		<summary>b. Encrypt the SSH tunnel</summary>
 		<div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/windows/02-putty-encrypted-ssh-tunnel"/>
 		</div>
 	</details>
 </details>
 <p></p>
 
-2. Execute the following command on your remote machine to launch a VNCServer instance on port 5901 on the remote host:
+3. Execute the following command on your remote machine to launch a VNCServer instance on port 5901 on the remote host:
 <p></p>
 <pre>
 vncserver
@@ -124,16 +133,16 @@ vncserver
 </div>
 </details>
 
-3. On your local machine, open VNC Viewer.
+4. On your local machine, open VNC Viewer.
 
-4. Enter <b>localhost:5901</b> into the search bar and press return.
+5. Enter <b>localhost:5901</b> into the search bar and press return.
 <details>
 	<summary>VNC Viewer</summary>
 <div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/05-vnc-connection-vnc-viewer.png"/>
 </div>
 </details>
 
-5. Enter the password <b>HPC_oci1</b> when prompted.
+6. Enter the password <b>HPC_oci1</b> when prompted.
 
 <details>
 	<summary>Enter VNC password</summary>
@@ -141,7 +150,7 @@ vncserver
 </div>
 </details>
 
-6. Click through the default options (<b>Next</b>, <b>Skip</b>) to get to the end with the VNC setup wizard:
+7. Click through the default options (<b>Next</b>, <b>Skip</b>) to get to the end with the VNC setup wizard:
 
 <p></p>
 <pre>
