@@ -128,7 +128,7 @@ You can deploy this compute node via Resource Manager or Command Line. Click int
 vncserver
 </pre>
 <details>
-	<summary>Port mapping from localhost to remote host</summary>
+	<summary>Port mapping from localhost to remote host. Note that the user in this example is using Mac OS as a local machine.</summary>
 <div style="text-align:center"><img src="./pictures/post-resourcemanager-deployment/04-vnc-connection-port-mapping.png"/>
 </div>
 </details>
