@@ -9,7 +9,11 @@ In the first part of this lab, you will download the latest version of ocihpc. T
 
 
 ### Step 1. Launch a job via Resource Manager to deploy the IntelWorkshop stack
-S
+<p></p>
+<sub><sup><sub>:clock3:</sub></sup></sub>
+&nbsp;
+<sub>~10 minutes</sub>
+<p></p>
 
 1. Download the stack project:
 <p></p>
@@ -157,7 +161,8 @@ cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hov
 <div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/14-resourcemanager-stack-listings.png"/>
 </div>
 </details>
-4.2. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Destroy</b> > <b>Destroy</b> to deprovision the infrastructure.
+
+2. On the <b>Stack Details</b> page, Under <b>Terraform Actions</b> dropdown menu, click <b>Destroy</b> > <b>Destroy</b> to deprovision the infrastructure.
 <details>
 	<summary>Deprovision the infrastructure</summary>
 <div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/15-resourcemanager-destroy-1.png"/>
