@@ -38,7 +38,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 </details>
 
 ### Phase 1. Deployment
-You can deploy this compute node via either of the following methods:
+You can deploy this compute node via either method:
 
 * [Resource Manager](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Resource%20Manager.md), a stack manager that is accessible as a GUI on the OCI portal
 <p></p>
