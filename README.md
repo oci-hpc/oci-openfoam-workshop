@@ -256,6 +256,6 @@ If you used Resource Manager to deploy the stack, continue to the [final step](h
 <details>
 	<summary>Command Line</summary>
 	
-If you used Command Line to deploy the stack, continue to the [final step](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md) in the Command Line section.
+If you used Command Line to deploy the stack, continue to the [final step](./Documentation/Resource%20Manager.md#step-4-launch-a-job-via-resource-manager-that-deprovisions-the-intelworkshop-stack) in the Command Line section.
 </div>
 </details>
