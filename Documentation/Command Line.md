@@ -157,7 +157,7 @@ This step describes the required configuration for the Command Line Interface (C
 
 	$ nano config
 
-7. Once open, paste the appropriate content into the file. An example config file would look like this. Fill in the keyfile variable as /Users/&ltyour_user_name&gt/.oci/oci_api_key.pem
+7. Once open, paste the appropriate content into the file. An example config file would look like this. Fill in the keyfile variable as /Users/<your_user_name>/.oci/oci_api_key.pem
  	 
 
 8. Now you want to go ahead and exit out of the file. It is essential that you save the content before exiting. You can exit by pressing ‘ctrl+x’ on your keyboard. Then, press ‘y’ when prompted to save, and finally hit "Enter" to confirm the file directory. The default location will suffice.
@@ -209,16 +209,16 @@ Step 7: Deploy the Stack
 
 4. After you change the values in the config.json file, you can deploy the stack using the following command:
 
-	$ ocihpc deploy –-stack IntelWorkshop –-node-count 2 –-region us-phoenix-1 –-compartment-id &ltyour_compartment_ocid&gt
+	$ ocihpc deploy –-stack IntelWorkshop –-node-count 2 –-region us-phoenix-1 –-compartment-id <your_compartment_ocid>
 
 5. You can locate your Compartment OCID by following these steps:
 	a. Log into your OCI tenancy using the credentials provided to you
 	b. Click the hamburger menu in the top right-hand corner, and scroll down to IdentityCompartments
  	c. Copy your Compartment OCID by clicking the "Copy" button shown below
  
-6. The ocihpc deploy command shown above will generate a deployment name that consists of &ltstack_name&gt-&ltcurrent_directory&gt-&ltrandom_number&gt. The output to this command will look something like this:
+6. The ocihpc deploy command shown above will generate a deployment name that consists of <stack_name>-<current_directory>-<random_number>. The output to this command will look something like this:
 
-	$ ocihpc deploy –-stack IntelWorkshop –-node-count 2 –-region us-phoenix-1 –-compartment-id &ltyour_compartment_ocid&gt
+	$ ocihpc deploy –-stack IntelWorkshop –-node-count 2 –-region us-phoenix-1 –-compartment-id <your_compartment_ocid>
   	Deploying IntelWorkshop-ocihpc-test-7355 [0min 0sec]
  	Deploying IntelWorkshop-ocihpc-test-7355 [0min 17sec]
  	Deploying IntelWorkshop-ocihpc-test-7355 [0min 35sec]
@@ -232,7 +232,7 @@ Step 8: Connect to the Stack
 
 	$ Successfully deployed IntelWorkshop-ocihpc-test-7355
 
-	$ You can connect to your head node using the command: ssh opc@123.221.10.8 -i &ltlocation of the private ssh key you created in the .ssh directory&gt
+	$ You can connect to your head node using the command: ssh opc@123.221.10.8 -i <location of the private ssh key you created in the .ssh directory>
 
 
 
