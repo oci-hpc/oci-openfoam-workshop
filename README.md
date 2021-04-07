@@ -13,7 +13,7 @@ Here is what gets installed on the compute node:
 * a copy of a motorbike model that was assembled using OpenFOAM, a computational fluid dynamics software.
 * ParaView for provising GUI access to the motorbike model
 
-You can deploy this compute node using either Resource Manager, a stack manager that is accessible as a GUI on the OCI portal, or ocihpc, an HPC stack deployment tool for CLI.
+You can deploy this compute node using either Resource Manager, a stack manager that is accessible as a GUI on the OCI portal, or ocihpc, an HPC stack deployment tool for the CLI.
 
 
 ### Workshop Prerequisites

@@ -226,3 +226,7 @@ cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hov
 
 <div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/18-resourcemanager-job-complete-destroy.png"/>
 </div>
+
+Congratulations! You have successfully deployed the motorbike model stack using Resource Manager!
+
+Another way to deploy this stack is via ocihpc, an HPC stack deployment tool for the CLI. You can do this by following [these steps](https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/Documentation/Command%20Line.md).
