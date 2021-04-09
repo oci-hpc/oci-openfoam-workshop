@@ -390,7 +390,7 @@ You can connect to your head node using the command: ssh opc@123.221.10.8 -i &lt
 
 
 
-### Step 9: [Visualize the Motorbike Model on OCI](../README.md#phase-2-visualize-on-oci)
+### Step 9: [Visualize the motorbike model on OCI](../README.md#phase-2-visualize-the-motorbike-model-on-oci)
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;

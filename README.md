@@ -18,7 +18,7 @@ Here is what gets installed on the compute node:
 ### Table of Contents
 
 - [Phase 1](#phase-1-deploy-the-stack): Deploy the stack using Resource Manager or Command Line
-- [Phase 2](#phase-2-visualize-on-oci): Visualize the motorbike model on the compute node
+- [Phase 2](#phase-2-visualize-the-motorbike-model-on-oci): Visualize the motorbike model on the compute node
 - [Phase 3](#phase-3-deprovision-the-stack): Deprovision the stack using Resource Manager or Command Line
 
 
@@ -67,7 +67,7 @@ You can deploy the stack via Resource Manager or Command Line. Click into one of
 
 
 
-## Phase 2. Visualize on OCI
+## Phase 2. Visualize the motorbike model on OCI
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;

@@ -175,7 +175,7 @@ From the left side of the page, you can monitor the logs of the Resource Manager
 
 
 
-### Step 3: [Visualize the Motorbike Model on OCI](../README.md#phase-2-visualize-on-oci)
+### Step 3: [Visualize the motorbike model on OCI](../README.md#phase-2-visualize-the-motorbike-model-on-oci)
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
