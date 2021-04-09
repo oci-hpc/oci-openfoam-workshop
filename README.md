@@ -17,7 +17,7 @@ Here is what gets installed on the compute node:
 
 ### Table of Contents
 
-- [Phase 1](#phase-1-deployment): Deploy the stack using Resource Manager or Command Line
+- [Phase 1](#phase-1-deploy-the-stack): Deploy the stack using Resource Manager or Command Line
 - [Phase 2](#phase-2-visualize-on-oci): Visualize the motorbike model on the compute node
 - [Phase 3](#phase-3-deprovision-the-stack): Deprovision the stack using Resource Manager or Command Line
 
@@ -42,7 +42,7 @@ Hamburger Menu &gt Governance &gt Limits, Quotas and Usage
 </div>
 </details>
 
-## Phase 1. Deployment
+## Phase 1. Deploy the stack
 <p></p>
 <sub><sup><sub>:clock3:</sub></sup></sub>
 &nbsp;
