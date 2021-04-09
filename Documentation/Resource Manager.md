@@ -229,6 +229,7 @@ cloud.oracle.com &gt sign into your OCI Tenancy &gt click Hamburger Menu &gt hov
 
 <div style="text-align:center"><img src="https://github.com/oci-hpc/oci-openfoam-workshop/blob/oci-hpc/pictures/post-resourcemanager-deployment/18-resourcemanager-job-complete-destroy.png"/>
 </div>
+</details>
 
 Congratulations! You have successfully deployed the motorbike model stack using Resource Manager!
 
